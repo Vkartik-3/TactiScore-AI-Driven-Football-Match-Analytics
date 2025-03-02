@@ -337,7 +337,77 @@ async def predict_match(prediction_request: dict):  # Change to accept a diction
         traceback.print_exc()
         # Return error in a way frontend can use
         return {"error": str(e)}
-
+    
+@app.post("/predict-simple/")
+async def predict_match_simple(prediction_request: dict):
+    """A simplified prediction endpoint that doesn't rely on complex model logic"""
+    try:
+        # Extract basic info
+        home_team = prediction_request.get('home_team', '')
+        away_team = prediction_request.get('away_team', '')
+        team_to_predict = prediction_request.get('team_to_predict', 'home').lower()
+        
+        # Determine team and venue
+        if team_to_predict == 'home':
+            team = home_team
+            opponent = away_team
+            venue = 'Home'
+        else:
+            team = away_team
+            opponent = home_team
+            venue = 'Away'
+            
+        # Get form statistics
+        goals_for = float(prediction_request.get('goals_for', 1.5))
+        goals_against = float(prediction_request.get('goals_against', 1.0))
+        shots = float(prediction_request.get('shots', 12.0))
+        shots_on_target = float(prediction_request.get('shots_on_target', 5.0))
+        
+        # Simple prediction logic
+        base_probability = 0.5
+        
+        # Adjust for form
+        form_adjustment = (goals_for - goals_against) * 0.1
+        base_probability += form_adjustment
+        
+        # Adjust for shots efficiency
+        if shots > 0:
+            shooting_efficiency = min(shots_on_target / shots, 1.0) * 0.1
+            base_probability += shooting_efficiency
+        
+        # Home advantage
+        if venue == 'Home':
+            base_probability += 0.1
+            
+        # Ensure probability is between 0 and 1
+        win_probability = max(0.1, min(0.9, base_probability))
+        
+        # Determine result
+        prediction = "WIN" if win_probability > 0.5 else "NOT WIN"
+        
+        # Create simple feature importance
+        key_factors = [
+            {"Feature": "Goals For", "Importance": 0.35},
+            {"Feature": "Goals Against", "Importance": 0.25},
+            {"Feature": f"{venue} Advantage", "Importance": 0.20},
+            {"Feature": "Shots", "Importance": 0.12},
+            {"Feature": "Shots on Target", "Importance": 0.08}
+        ]
+        
+        return {
+            "team": team,
+            "opponent": opponent,
+            "win_probability": float(win_probability),
+            "prediction": prediction,
+            "key_factors": key_factors
+        }
+        
+    except Exception as e:
+        print(f"Error in simple prediction: {e}")
+        import traceback
+        traceback.print_exc()
+        return {"error": str(e)}
+    
 @app.post("/upload-data/")
 async def upload_data(file: UploadFile = File(...)):
     print(f"File upload received: {file.filename}, content-type: {file.content_type}")
