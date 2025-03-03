@@ -9,6 +9,7 @@ import sys
 import os
 import traceback
 from ml.model import train_ensemble_model
+from ml.model_versioning import ModelVersionTracker
 # ml/ensemble_model.py
 # Line 8:
 
@@ -82,7 +83,61 @@ async def startup_event():
 @app.get("/")
 async def root():
     return {"message": "Football Prediction System API"}
+@app.get("/model-versions/")
+async def get_model_versions(model_type: str = None):
+    """Return list of model versions, optionally filtered by type"""
+    version_tracker = ModelVersionTracker()
+    versions = version_tracker.get_model_versions(model_type)
+    return versions
 
+@app.get("/model-versions/{version_name}")
+async def get_model_version_details(version_name: str):
+    """Return detailed information about a specific model version"""
+    version_tracker = ModelVersionTracker()
+    details = version_tracker.get_version_details(version_name)
+    
+    if not details:
+        raise HTTPException(status_code=404, detail=f"Model version '{version_name}' not found")
+    
+    return details
+
+@app.get("/model-performance-comparison/")
+async def get_model_performance_comparison():
+    """Compare performance metrics across model versions"""
+    version_tracker = ModelVersionTracker()
+    
+    # Get all model versions
+    all_versions = version_tracker.get_model_versions()
+    
+    # Filter to versions with metrics
+    versions_with_metrics = []
+    for version in all_versions:
+        details = version_tracker.get_version_details(version['version_name'])
+        if details and details.get('metrics'):
+            version_data = {
+                'version_name': version['version_name'],
+                'model_type': version['model_type'],
+                'creation_date': version['creation_date'],
+                'metrics': details['metrics']
+            }
+            versions_with_metrics.append(version_data)
+    
+    # Group by model type for comparison
+    comparison = {}
+    for version in versions_with_metrics:
+        model_type = version['model_type']
+        if model_type not in comparison:
+            comparison[model_type] = []
+        comparison[model_type].append(version)
+    
+    return {
+        'model_comparisons': comparison,
+        'overview': {
+            'total_versions': len(all_versions),
+            'versions_with_metrics': len(versions_with_metrics),
+            'model_types': list(comparison.keys())
+        }
+    }
 @app.get("/teams/")
 async def get_teams():
     """Return list of teams in the dataset"""

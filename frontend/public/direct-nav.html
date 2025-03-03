@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Direct Navigation</title>
+  <style>
+    body { font-family: Arial; margin: 0; padding: 20px; }
+    nav { background: #0077cc; padding: 10px; display: flex; justify-content: space-between; }
+    button { padding: 8px 16px; background: transparent; border: none; color: white; cursor: pointer; }
+    .active { background: #004c8c; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <nav>
+    <h1 style="color: white; margin: 0;">Football Prediction System</h1>
+    <div>
+      <button onclick="navigate('predict')" id="predict-btn">Predict Match</button>
+      <button onclick="navigate('data')" id="data-btn">View Data</button>
+      <button onclick="navigate('upload')" id="upload-btn">Upload Data</button>
+      <button onclick="navigate('models')" id="models-btn">Model History</button>
+    </div>
+  </nav>
+  <div id="content" style="margin-top: 20px;">
+    Click a navigation button to test
+  </div>
+
+  <script>
+    function navigate(tab) {
+      console.log('Navigating to', tab);
+      document.querySelectorAll('button').forEach(btn => btn.classList.remove('active'));
+      document.getElementById(tab + '-btn').classList.add('active');
+      
+      // For testing only
+      document.getElementById('content').innerHTML = `<h2>You are now on the ${tab} page</h2>`;
+      
+      // In a real app, you would redirect to your React app with a URL parameter
+      // window.location.href = `/?tab=${tab}`;
+    }
+  </script>
+</body>
+</html>

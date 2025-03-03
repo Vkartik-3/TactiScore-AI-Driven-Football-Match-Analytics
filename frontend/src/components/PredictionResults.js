@@ -1,9 +1,10 @@
-// src/components/PredictionResults.js
+// src/components/PredictionResults.js (updated)
 import React from 'react';
 import {
-  BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer,
-  RadialBarChart, RadialBar, PieChart, Pie, Cell
+  BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip,  ResponsiveContainer,
+  RadialBarChart, RadialBar
 } from 'recharts';
+import ModelComparisonChart from './ModelComparisonChart';
 
 const PredictionResults = ({ prediction }) => {
   if (!prediction) return null;
@@ -34,6 +35,11 @@ const PredictionResults = ({ prediction }) => {
           </span> 
           against {opponent}
         </p>
+        {prediction.model_version && (
+          <p className="text-sm text-center text-gray-500 mt-2">
+            Model version: {prediction.model_version}
+          </p>
+        )}
       </div>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -97,6 +103,11 @@ const PredictionResults = ({ prediction }) => {
           </div>
         </div>
       </div>
+      
+      {/* Model Comparison Chart (conditionally rendered) */}
+      {prediction.model_comparison && (
+        <ModelComparisonChart predictionResult={prediction} />
+      )}
       
       <div className="mt-8">
         <h3 className="text-lg font-semibold mb-4">Prediction Explanation</h3>

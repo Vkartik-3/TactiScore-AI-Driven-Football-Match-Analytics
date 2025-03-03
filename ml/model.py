@@ -4,15 +4,22 @@ import pandas as pd
 import pickle
 import joblib
 import numpy as np
+from datetime import datetime
+from ml.model_versioning import ModelVersionTracker
 
 class FootballPredictionModel:
-    def __init__(self, n_estimators=200, min_samples_split=10):
+    def __init__(self, n_estimators=200, min_samples_split=10, model_version="unversioned"):
         self.model = RandomForestClassifier(
             n_estimators=n_estimators,
             min_samples_split=min_samples_split,
             random_state=1
         )
         self.predictors = []
+        self.model_version = model_version
+        self.hyperparameters = {
+            'n_estimators': n_estimators,
+            'min_samples_split': min_samples_split
+        }
         
     def train(self, X, y):
         """Train the model with provided features and target."""
@@ -69,18 +76,34 @@ class FootballPredictionModel:
             print(f"Could not load model from {filepath}, creating new model")
             return cls()
 
-# ml/model.py - Enhanced train_prediction_model function
-
 def train_prediction_model(data, train_date_cutoff='2023-01-01'):
-    """Train the football prediction model with enhanced error handling and features."""
+    """Train the football prediction model with enhanced error handling, features, and versioning."""
     print("Training prediction model...")
     from preprocessing.data_processing import add_advanced_features
+    from sklearn.model_selection import train_test_split
+    
+    # Create version tracker
+    version_tracker = ModelVersionTracker()
+    
+    # Generate a timestamp for versioning
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M")
+    
     # Handle empty or invalid data
     if data is None or len(data) == 0:
         print("No data provided, creating default model")
-        model = FootballPredictionModel()
+        model = FootballPredictionModel(model_version=f"default_rf_{timestamp}")
         model.predictors = ['venue_code', 'opp_code', 'hour', 'day_code', 
                           'gf_rolling', 'ga_rolling', 'sh_rolling', 'sot_rolling']
+        
+        # Register default model with version tracker
+        version_tracker.register_model(
+            model=model,
+            model_type="randomforest",
+            version_name=model.model_version,
+            description="Default model created with no training data",
+            hyperparameters=model.hyperparameters
+        )
+        
         return model
     
     try:
@@ -129,34 +152,80 @@ def train_prediction_model(data, train_date_cutoff='2023-01-01'):
         # Filter valid data
         valid_data = data.dropna(subset=all_predictors + ['target'])
         valid_data = add_advanced_features(valid_data)
+        
         if len(valid_data) < 100:  # If we have fewer than 100 samples
             from preprocessing.data_processing import augment_data
             print(f"Augmenting data from {len(valid_data)} to {len(valid_data) + 50} samples")
             valid_data = augment_data(valid_data, n_samples=50)
+            
         if len(valid_data) == 0:
             print("No valid data after filtering, creating default model")
-            model = FootballPredictionModel()
+            model = FootballPredictionModel(model_version=f"default_rf_{timestamp}")
             model.predictors = all_predictors
+            
+            # Register default model
+            version_tracker.register_model(
+                model=model,
+                model_type="randomforest",
+                version_name=model.model_version,
+                description="Default model created after filtering resulted in no valid data",
+                hyperparameters=model.hyperparameters
+            )
+            
             return model
         
         print(f"Training with {len(valid_data)} valid matches")
         
-        # Use random train-test split instead of date-based
-        try:
-            from sklearn.model_selection import train_test_split
-            train, _ = train_test_split(data, test_size=0.2, random_state=42)
-        except:
-            print("Error with train-test split, using all data for training")
-            train = data
+        # Use random train-test split
+        train, test = train_test_split(valid_data, test_size=0.2, random_state=42)
         
         # Train model
-        model = FootballPredictionModel()
+        model_version = f"rf_v{timestamp}"
+        model = FootballPredictionModel(model_version=model_version)
         model.predictors = all_predictors
+        
         X_train = train[all_predictors]
         y_train = train['target']
         
         print(f"Training model with {len(X_train)} samples and {len(all_predictors)} features")
         model.train(X_train, y_train)
+        
+        # Calculate evaluation metrics on test set if available
+        metrics = {}
+        if len(test) > 0:
+            from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score
+            
+            X_test = test[all_predictors]
+            y_test = test['target']
+            
+            # Make predictions
+            y_pred = model.predict(X_test)
+            y_proba = model.predict_proba(X_test)[:, 1]
+            
+            # Calculate metrics
+            metrics = {
+                'accuracy': float(accuracy_score(y_test, y_pred)),
+                'precision': float(precision_score(y_test, y_pred, zero_division=0)),
+                'recall': float(recall_score(y_test, y_pred, zero_division=0)),
+                'f1': float(f1_score(y_test, y_pred, zero_division=0)),
+            }
+            
+            try:
+                metrics['auc'] = float(roc_auc_score(y_test, y_proba))
+            except:
+                metrics['auc'] = 0.5  # Default AUC if calculation fails
+                
+            print(f"Model evaluation metrics: {metrics}")
+        
+        # Register model with version tracker
+        version_tracker.register_model(
+            model=model,
+            model_type="randomforest",
+            version_name=model_version,
+            description=f"RandomForest model trained on {len(train)} samples with {len(all_predictors)} features",
+            hyperparameters=model.hyperparameters,
+            metrics=metrics
+        )
         
         print("Model training completed")
         return model
@@ -167,9 +236,19 @@ def train_prediction_model(data, train_date_cutoff='2023-01-01'):
         traceback.print_exc()
         
         # Return a default model
-        model = FootballPredictionModel()
+        model = FootballPredictionModel(model_version=f"fallback_rf_{timestamp}")
         model.predictors = ['venue_code', 'opp_code', 'hour', 'day_code', 
                           'gf_rolling', 'ga_rolling', 'sh_rolling', 'sot_rolling']
+        
+        # Register fallback model
+        version_tracker.register_model(
+            model=model,
+            model_type="randomforest",
+            version_name=model.model_version,
+            description=f"Fallback model created after error in training: {str(e)}",
+            hyperparameters=model.hyperparameters
+        )
+        
         return model
 
 def prepare_match_prediction_data(match_details, historical_data):
@@ -220,6 +299,7 @@ def prepare_match_prediction_data(match_details, historical_data):
             match_df[key] = value
     
     return match_df
+
 def train_ensemble_model(data, train_date_cutoff='2023-01-01', rf_weight=0.5, xgb_weight=0.5):
     """
     Train the ensemble football prediction model combining RandomForest and XGBoost.
@@ -235,14 +315,34 @@ def train_ensemble_model(data, train_date_cutoff='2023-01-01', rf_weight=0.5, xg
     """
     from ml.ensemble_model import EnsemblePredictor
     from preprocessing.data_processing import add_advanced_features
+    from sklearn.model_selection import train_test_split
+    from ml.model_versioning import ModelVersionTracker
+    
     print("Training ensemble prediction model...")
+    
+    # Create version tracker
+    version_tracker = ModelVersionTracker()
+    
+    # Generate timestamp for version
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M")
+    model_version = f"ensemble_v{timestamp}"
     
     # Handle empty or invalid data
     if data is None or len(data) == 0:
         print("No data provided, creating default ensemble model")
-        model = EnsemblePredictor(weights=(rf_weight, xgb_weight))
+        model = EnsemblePredictor(weights=(rf_weight, xgb_weight), model_version=model_version)
         model.predictors = ['venue_code', 'opp_code', 'hour', 'day_code', 
                           'gf_rolling', 'ga_rolling', 'sh_rolling', 'sot_rolling']
+        
+        # Register default model
+        version_tracker.register_model(
+            model=model,
+            model_type="ensemble",
+            version_name=model_version,
+            description="Default ensemble model created with no training data",
+            hyperparameters=model.hyperparams
+        )
+        
         return model
     
     try:
@@ -291,36 +391,37 @@ def train_ensemble_model(data, train_date_cutoff='2023-01-01', rf_weight=0.5, xg
         # Filter valid data
         valid_data = data.dropna(subset=all_predictors + ['target'])
         valid_data = add_advanced_features(valid_data)
+        
         if len(valid_data) < 100:  # If we have fewer than 100 samples
             from preprocessing.data_processing import augment_data
             print(f"Augmenting data from {len(valid_data)} to {len(valid_data) + 50} samples")
             valid_data = augment_data(valid_data, n_samples=50)
+            
         if len(valid_data) == 0:
             print("No valid data after filtering, creating default ensemble model")
-            model = EnsemblePredictor(weights=(rf_weight, xgb_weight))
+            model = EnsemblePredictor(weights=(rf_weight, xgb_weight), model_version=model_version)
             model.predictors = all_predictors
+            
+            # Register default model
+            version_tracker.register_model(
+                model=model,
+                model_type="ensemble",
+                version_name=model_version,
+                description="Default ensemble model created after filtering resulted in no valid data",
+                hyperparameters=model.hyperparams
+            )
+            
             return model
         
         print(f"Training with {len(valid_data)} valid matches")
         
         # Split data for training
-        try:
-            data['date'] = pd.to_datetime(data['date'])
-            train_date = pd.to_datetime(train_date_cutoff)
-            from sklearn.model_selection import train_test_split
-            train, _ = train_test_split(data, test_size=0.2, random_state=42)
-            
-            if len(train) < 10:  # Not enough training data
-                print("Not enough training data, using all data")
-                train = data
-        except:
-            print("Error parsing dates, using all data for training")
-            train = data
+        train, test = train_test_split(valid_data, test_size=0.2, random_state=42)
         
         # Create and train ensemble model
         model = EnsemblePredictor(
             weights=(rf_weight, xgb_weight),
-            model_version=f"ensemble-{pd.Timestamp.now().strftime('%Y%m%d')}"
+            model_version=model_version
         )
         
         X_train = train[all_predictors]
@@ -330,15 +431,22 @@ def train_ensemble_model(data, train_date_cutoff='2023-01-01', rf_weight=0.5, xg
         model.train(X_train, y_train)
         
         # Evaluate model if we have test data
-        try:
-            test = data[data['date'] >= train_date]
-            if len(test) > 10:  # Only evaluate if enough test data
-                X_test = test[all_predictors]
-                y_test = test['target']
-                metrics = model.evaluate(X_test, y_test)
-                print(f"Ensemble model evaluation metrics: {metrics}")
-        except Exception as e:
-            print(f"Could not evaluate model: {e}")
+        metrics = {}
+        if len(test) > 0:
+            X_test = test[all_predictors]
+            y_test = test['target']
+            metrics = model.evaluate(X_test, y_test)
+            print(f"Ensemble model evaluation metrics: {metrics}")
+        
+        # Register model with version tracker
+        version_tracker.register_model(
+            model=model,
+            model_type="ensemble",
+            version_name=model_version,
+            description=f"Ensemble model (RF:{rf_weight}, XGB:{xgb_weight}) trained on {len(train)} samples",
+            hyperparameters=model.hyperparams,
+            metrics=metrics
+        )
         
         print("Ensemble model training completed")
         return model
@@ -349,7 +457,17 @@ def train_ensemble_model(data, train_date_cutoff='2023-01-01', rf_weight=0.5, xg
         traceback.print_exc()
         
         # Return a default model
-        model = EnsemblePredictor(weights=(rf_weight, xgb_weight))
+        model = EnsemblePredictor(weights=(rf_weight, xgb_weight), model_version=f"fallback_ensemble_{timestamp}")
         model.predictors = ['venue_code', 'opp_code', 'hour', 'day_code', 
-                          'gf_rolling', 'ga_rolling', 'sh_rolling', 'sot_rolling']
+                         'gf_rolling', 'ga_rolling', 'sh_rolling', 'sot_rolling']
+        
+        # Register fallback model
+        version_tracker.register_model(
+            model=model,
+            model_type="ensemble",
+            version_name=model.model_version,
+            description=f"Fallback ensemble model created after error in training: {str(e)}",
+            hyperparameters=model.hyperparams
+        )
+        
         return model

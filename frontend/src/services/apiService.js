@@ -132,6 +132,45 @@ predictMatchEnsemble: async (matchData) => {
     throw error;
   }
 },
+
+// Add these methods to src/services/apiService.js
+
+// Get all model versions
+getModelVersions: async (modelType = null) => {
+  try {
+    const url = modelType 
+      ? `${API_BASE_URL}/model-versions/?model_type=${modelType}`
+      : `${API_BASE_URL}/model-versions/`;
+    
+    const response = await axios.get(url);
+    return response.data;
+  } catch (error) {
+    console.error('Error fetching model versions:', error);
+    throw error;
+  }
+},
+
+// Get details for a specific model version
+getModelVersionDetails: async (versionName) => {
+  try {
+    const response = await axios.get(`${API_BASE_URL}/model-versions/${versionName}`);
+    return response.data;
+  } catch (error) {
+    console.error(`Error fetching version details for ${versionName}:`, error);
+    throw error;
+  }
+},
+
+// Get model performance comparison data
+getModelPerformanceComparison: async () => {
+  try {
+    const response = await axios.get(`${API_BASE_URL}/model-performance-comparison/`);
+    return response.data;
+  } catch (error) {
+    console.error('Error fetching model performance comparison:', error);
+    throw error;
+  }
+},
   // Get data insights
   getDataInsights: async (team = '') => {
     try {
