@@ -1,101 +1,152 @@
-date,time,team,opponent,venue,result,gf,ga,sh,sot,dist,fk,pk,pkatt,season
-2022-04-18,16:41,Manchester United,Tottenham,Home,W,2,0,7,2,11.79538799526805,3,1,1,2022
-2022-01-09,15:08,Arsenal,Crystal Palace,Home,L,0,2,11,2,19.137661645299872,3,1,1,2022
-2021-12-27,17:37,Burnley,Norwich City,Home,W,4,1,5,8,15.130354104869383,0,1,0,2021
-2022-01-31,16:34,Norwich City,Brentford,Home,W,2,0,7,1,17.13494117121688,2,0,0,2022
-2021-08-20,17:20,Brentford,Everton,Away,D,2,2,18,2,19.685751737099025,4,1,0,2021
-2022-01-10,17:57,Crystal Palace,Manchester United,Home,W,4,2,23,2,15.029657463757014,0,1,1,2022
-2021-11-09,18:54,Watford,Newcastle United,Home,W,4,1,14,7,17.954527180516816,2,0,1,2021
-2021-12-03,12:52,Wolves,Burnley,Home,W,1,0,7,3,19.112751173666723,4,0,0,2021
-2021-09-24,13:34,Brighton,Manchester United,Away,L,3,4,5,4,10.424744388012822,4,1,1,2021
-2021-10-06,18:06,Watford,Burnley,Home,L,0,2,10,3,14.017748341413771,0,0,0,2021
-2021-09-15,13:07,Manchester United,Southampton,Home,L,2,3,20,3,12.072690886722064,3,0,0,2021
-2021-09-30,14:24,Arsenal,Manchester United,Home,W,1,0,7,9,16.11077256040316,4,1,1,2021
-2022-02-26,19:41,Wolves,Brighton,Home,W,2,0,14,6,12.446470609940027,1,0,0,2022
-2022-01-28,14:59,Aston Villa,Burnley,Home,D,1,1,19,5,11.240391739953374,1,1,0,2022
-2022-05-26,16:58,Chelsea,Watford,Away,D,2,2,16,2,11.955573766722907,3,0,1,2022
-2022-02-19,19:44,Leicester City,Wolves,Home,D,0,0,9,7,15.994527148976363,2,1,0,2022
-2021-12-03,18:38,Leeds United,Liverpool,Home,D,0,0,9,6,11.640379417560482,4,1,1,2021
-2021-12-13,16:52,Leicester City,Crystal Palace,Home,W,4,0,18,3,13.275304116293112,1,0,1,2021
-2021-12-01,17:38,Burnley,Aston Villa,Away,L,2,4,14,8,12.319348288611554,2,1,0,2021
-2022-01-06,19:43,Manchester United,Newcastle United,Home,L,1,2,23,7,17.957667383430092,4,1,0,2022
-2021-10-03,19:40,Leicester City,Norwich City,Away,W,4,3,12,8,10.134829040778545,3,0,0,2021
-2021-11-20,19:50,Arsenal,Brentford,Home,W,3,2,11,3,18.292220990670273,4,1,0,2021
-2021-10-31,12:26,Brighton,Newcastle United,Home,D,1,1,13,5,17.2510335251244,1,1,1,2021
-2022-02-15,14:12,Manchester United,Burnley,Home,L,0,4,19,2,17.800902909490972,1,0,1,2022
-2021-11-07,13:32,West Ham,Leeds United,Home,D,4,4,17,8,19.245938287479667,2,0,0,2021
-2021-11-23,16:56,Aston Villa,Norwich City,Home,L,3,4,6,1,16.451847499381223,2,0,0,2021
-2021-11-11,13:28,Brighton,Crystal Palace,Away,L,2,3,14,5,19.03411850392654,0,0,0,2021
-2021-08-15,14:23,Aston Villa,Leicester City,Away,W,4,0,24,9,15.261836398219769,2,0,1,2021
-2022-05-26,13:54,West Ham,Arsenal,Away,D,2,2,8,6,17.60564790256828,0,0,0,2022
-2021-11-19,18:41,Burnley,Leeds United,Away,L,1,3,8,8,14.839755146934785,3,1,0,2021
-2022-02-01,13:21,Liverpool,Manchester United,Home,D,2,2,19,4,17.9685334940283,1,1,1,2022
-2022-05-26,15:57,Manchester United,West Ham,Away,W,4,0,15,4,10.576955608332867,0,1,0,2022
-2022-01-07,16:45,Watford,Newcastle United,Away,L,2,3,6,5,16.028714210679873,4,0,0,2022
-2022-01-11,18:06,Brentford,Liverpool,Home,L,3,4,9,7,16.47773379798318,3,0,1,2022
-2021-09-26,14:50,Manchester City,Leeds United,Home,D,2,2,11,9,19.934219940150413,2,0,0,2021
-2021-11-21,13:49,Norwich City,Wolves,Away,L,1,2,11,4,16.316407778934902,1,0,0,2021
-2021-10-15,12:51,Newcastle United,Watford,Away,L,1,4,10,6,17.091424111114378,4,0,1,2021
-2021-12-23,16:53,Everton,Crystal Palace,Home,W,3,1,24,1,19.05527248601171,4,1,0,2021
-2021-10-08,15:21,Brighton,Manchester United,Home,L,0,4,16,1,11.880012070366135,2,1,0,2021
-2022-01-28,17:23,Tottenham,Newcastle United,Home,W,2,0,19,7,19.487627701398367,0,0,1,2022
-2021-10-12,19:29,Southampton,Leicester City,Away,W,4,1,13,3,17.235863515052365,1,0,0,2021
-2021-09-19,18:08,Southampton,Brentford,Away,L,2,4,18,6,14.303901126189517,1,0,1,2021
-2021-11-01,14:08,Crystal Palace,Manchester City,Home,L,0,3,19,5,13.664256063325578,3,1,0,2021
-2022-05-12,13:49,Arsenal,Leicester City,Away,D,4,4,21,9,15.157676267700726,0,0,1,2022
-2021-12-09,13:36,Burnley,West Ham,Away,D,3,3,23,8,17.95562188754035,0,1,1,2021
-2021-12-07,17:10,Burnley,Manchester City,Home,L,1,3,11,2,14.965329075653802,1,1,0,2021
-2022-05-24,16:07,Brighton,West Ham,Home,D,4,4,10,5,14.848261592108788,4,1,1,2022
-2021-09-29,16:27,Chelsea,Southampton,Away,W,4,3,12,1,15.30988678478592,3,1,0,2021
-2022-05-22,14:21,Leicester City,Manchester United,Away,L,1,2,21,5,15.069517218674537,2,1,0,2022
-2022-02-10,17:04,Watford,Brentford,Home,L,0,2,18,3,10.350489359804982,1,0,1,2022
-2021-08-02,18:59,Leeds United,Liverpool,Home,W,4,0,7,5,12.804943961884304,4,1,1,2021
-2021-09-15,16:06,Watford,Wolves,Away,D,2,2,8,8,19.832960466705657,2,1,0,2021
-2021-09-07,18:34,Arsenal,Leicester City,Home,W,4,0,23,9,16.158627264921762,0,1,1,2021
-2021-12-09,14:36,Manchester City,Southampton,Home,L,3,4,18,4,18.20168389994631,2,0,1,2021
-2021-08-03,19:31,Crystal Palace,Southampton,Home,D,2,2,17,4,16.03179246915309,2,1,1,2021
-2021-10-21,19:21,Manchester City,Leeds United,Away,L,0,3,15,2,13.820531344426644,1,1,0,2021
-2021-12-08,13:31,Norwich City,Manchester City,Home,W,4,3,6,4,18.35526990309222,4,1,0,2021
-2021-12-22,18:48,Southampton,Aston Villa,Away,D,2,2,22,2,17.770485139767008,1,1,1,2021
-2022-02-27,12:39,Liverpool,Tottenham,Home,W,3,0,11,2,14.199428214792267,1,0,1,2022
-2021-11-17,13:14,Watford,Wolves,Home,D,2,2,22,5,17.76294207998668,3,0,1,2021
-2021-12-25,18:56,Leeds United,Norwich City,Away,W,3,0,21,9,18.54932379212107,1,0,1,2021
-2022-05-08,15:56,Leicester City,Aston Villa,Home,W,4,3,13,6,11.308373992027036,3,1,0,2022
-2022-05-08,19:41,Aston Villa,Norwich City,Away,W,4,0,21,6,15.512461709770315,0,0,0,2022
-2021-11-23,16:34,Norwich City,Chelsea,Home,L,0,2,16,9,13.114486998446697,2,1,0,2021
-2022-02-03,17:23,Brighton,Arsenal,Away,L,1,2,6,5,18.313893925192552,2,0,0,2022
-2021-08-29,18:23,Liverpool,Chelsea,Away,W,2,1,22,1,17.093278209857562,1,0,1,2021
-2021-11-13,16:56,Everton,Watford,Away,D,3,3,20,7,19.848676589786592,4,0,1,2021
-2022-01-31,15:30,Norwich City,Manchester United,Away,W,4,2,13,9,12.140039872069519,3,1,0,2022
-2022-03-14,15:07,Liverpool,Wolves,Away,L,2,4,9,3,13.810257948650623,2,1,0,2022
-2021-12-23,18:28,Liverpool,Burnley,Away,W,4,2,19,6,11.18819213180637,1,0,0,2021
-2021-12-11,16:16,Manchester City,Arsenal,Away,L,1,3,5,9,11.663347253056296,1,0,1,2021
-2021-10-25,18:34,Watford,Leeds United,Away,L,1,4,12,2,11.08045812858755,4,0,0,2021
-2022-02-17,19:27,Southampton,Crystal Palace,Home,W,4,3,11,8,16.41279562659089,3,1,0,2022
-2022-04-05,17:13,Norwich City,Manchester City,Home,L,3,4,23,7,13.925917937868736,2,0,1,2022
-2022-01-04,16:43,West Ham,Watford,Home,L,0,1,12,5,17.462472682524197,4,0,1,2022
-2022-05-15,13:11,Burnley,Newcastle United,Home,D,1,1,20,1,18.064360707477114,2,0,0,2022
-2022-03-14,13:04,Southampton,Wolves,Away,L,3,4,18,1,14.886143806214676,4,1,0,2022
-2021-08-30,13:20,Liverpool,Aston Villa,Home,D,1,1,8,2,17.996360612344226,4,1,1,2021
-2022-01-22,14:05,Tottenham,Leicester City,Home,W,4,0,5,9,14.417660085658273,1,1,0,2022
-2022-04-22,19:00,Manchester City,Brentford,Home,L,1,4,19,1,17.83193169371751,2,0,1,2022
-2022-02-21,13:33,Burnley,Crystal Palace,Away,L,3,4,24,4,16.07055892864265,0,1,1,2022
-2021-09-08,17:39,Leicester City,Burnley,Home,W,4,3,10,8,14.328701170634252,4,1,1,2021
-2021-09-13,15:57,Leeds United,Southampton,Away,W,2,1,8,3,19.46733698056214,3,1,0,2021
-2021-12-08,17:03,Arsenal,Everton,Away,L,0,1,22,2,13.801043594709363,2,1,0,2021
-2021-12-17,12:58,Brentford,Norwich City,Home,L,2,3,6,9,13.438946669941476,3,1,1,2021
-2021-09-08,16:35,Leeds United,Everton,Away,L,0,4,14,3,17.520568117146112,2,0,1,2021
-2021-12-19,18:05,Manchester United,Manchester City,Away,D,3,3,13,5,15.520460832034333,2,0,1,2021
-2021-10-29,15:49,Tottenham,Aston Villa,Home,L,1,4,11,2,15.967781818408776,0,1,1,2021
-2022-01-15,14:43,Aston Villa,Leeds United,Away,L,0,3,21,5,13.481194016373747,3,0,1,2022
-2022-04-26,12:22,West Ham,Manchester United,Away,L,3,4,10,7,16.360158911486586,1,1,0,2022
-2021-12-09,14:26,Brentford,Tottenham,Away,D,4,4,17,4,12.469560780244162,1,1,0,2021
-2022-03-20,14:16,Brentford,Burnley,Away,L,0,3,9,6,16.18282233276154,3,1,0,2022
-2021-09-07,14:18,Arsenal,Liverpool,Home,L,1,2,20,7,18.49151675591613,2,0,1,2021
-2021-12-09,19:26,Leeds United,Burnley,Home,L,3,4,14,2,11.843831773309143,1,1,0,2021
-2021-10-01,16:00,Brighton,West Ham,Home,L,0,2,18,2,18.31124492288353,3,1,0,2021
-2022-01-10,13:05,Burnley,Watford,Home,W,4,2,5,2,18.84687653237625,2,1,0,2022
-2022-04-11,14:11,Brentford,Wolves,Away,W,3,2,22,4,15.53842596716245,1,0,1,2022
-2022-01-29,12:40,West Ham,Crystal Palace,Away,L,0,2,8,9,16.238694014126224,2,0,1,2022
-2021-11-23,12:14,Leeds United,Southampton,Home,W,4,3,7,5,11.590534512260326,4,1,0,2021
-2021-08-27,16:54,Newcastle United,Brentford,Away,W,4,1,12,2,12.087899615855934,0,0,0,2021
+date,time,team,opponent,venue,result,gf,ga,sh,sot,dist,fk,pk,pkatt,season,,
+4/18/22,16:41,Manchester United,Tottenham,Home,W,2,0,7,2,11.8,3,1,1,2022,,
+1/9/22,15:08,Arsenal,Crystal Palace,Home,L,0,2,11,2,19.1,3,1,1,2022,,
+12/27/21,17:37,Burnley,Norwich City,Home,W,4,1,5,8,15.1,0,1,0,2021,,
+1/31/22,16:34,Norwich City,Brentford,Home,W,2,0,7,1,17.1,2,0,0,2022,,
+8/20/21,17:20,Brentford,Everton,Away,D,2,2,18,2,19.7,4,1,0,2021,,
+1/10/22,17:57,Crystal Palace,Manchester United,Home,W,4,2,23,2,15,0,1,1,2022,,
+11/9/21,18:54,Watford,Newcastle United,Home,W,4,1,14,7,18,2,0,1,2021,,
+12/3/21,12:52,Wolves,Burnley,Home,W,1,0,7,3,19.1,4,0,0,2021,,
+9/24/21,13:34,Brighton,Manchester United,Away,L,3,4,5,4,10.4,4,1,1,2021,,
+10/6/21,18:06,Watford,Burnley,Home,L,0,2,10,3,14,0,0,0,2021,,
+9/15/21,13:07,Manchester United,Southampton,Home,L,2,3,20,3,12.1,3,0,0,2021,,
+9/30/21,14:24,Arsenal,Manchester United,Home,W,1,0,7,9,16.1,4,1,1,2021,,
+2/26/22,19:41,Wolves,Brighton,Home,W,2,0,14,6,12.4,1,0,0,2022,,
+1/28/22,14:59,Aston Villa,Burnley,Home,D,1,1,19,5,11.2,1,1,0,2022,,
+5/26/22,16:58,Chelsea,Watford,Away,D,2,2,16,2,12,3,0,1,2022,,
+2/19/22,19:44,Leicester City,Wolves,Home,D,0,0,9,7,16,2,1,0,2022,,
+12/3/21,18:38,Leeds United,Liverpool,Home,D,0,0,9,6,11.6,4,1,1,2021,,
+12/13/21,16:52,Leicester City,Crystal Palace,Home,W,4,0,18,3,13.3,1,0,1,2021,,
+12/1/21,17:38,Burnley,Aston Villa,Away,L,2,4,14,8,12.3,2,1,0,2021,,
+1/6/22,19:43,Manchester United,Newcastle United,Home,L,1,2,23,7,18,4,1,0,2022,,
+10/3/21,19:40,Leicester City,Norwich City,Away,W,4,3,12,8,10.1,3,0,0,2021,,
+11/20/21,19:50,Arsenal,Brentford,Home,W,3,2,11,3,18.3,4,1,0,2021,,
+10/31/21,12:26,Brighton,Newcastle United,Home,D,1,1,13,5,17.3,1,1,1,2021,,
+2/15/22,14:12,Manchester United,Burnley,Home,L,0,4,19,2,17.8,1,0,1,2022,,
+11/7/21,13:32,West Ham,Leeds United,Home,D,4,4,17,8,19.2,2,0,0,2021,,
+11/23/21,16:56,Aston Villa,Norwich City,Home,L,3,4,6,1,16.5,2,0,0,2021,,
+11/11/21,13:28,Brighton,Crystal Palace,Away,L,2,3,14,5,19,0,0,0,2021,,
+8/15/21,14:23,Aston Villa,Leicester City,Away,W,4,0,24,9,15.3,2,0,1,2021,,
+5/26/22,13:54,West Ham,Arsenal,Away,D,2,2,8,6,17.6,0,0,0,2022,,
+11/19/21,18:41,Burnley,Leeds United,Away,L,1,3,8,8,14.8,3,1,0,2021,,
+2/1/22,13:21,Liverpool,Manchester United,Home,D,2,2,19,4,18,1,1,1,2022,,
+5/26/22,15:57,Manchester United,West Ham,Away,W,4,0,15,4,10.6,0,1,0,2022,,
+1/7/22,16:45,Watford,Newcastle United,Away,L,2,3,6,5,16,4,0,0,2022,,
+1/11/22,18:06,Brentford,Liverpool,Home,L,3,4,9,7,16.5,3,0,1,2022,,
+9/26/21,14:50,Manchester City,Leeds United,Home,D,2,2,11,9,19.9,2,0,0,2021,,
+11/21/21,13:49,Norwich City,Wolves,Away,L,1,2,11,4,16.3,1,0,0,2021,,
+10/15/21,12:51,Newcastle United,Watford,Away,L,1,4,10,6,17.1,4,0,1,2021,,
+12/23/21,16:53,Everton,Crystal Palace,Home,W,3,1,24,1,19.1,4,1,0,2021,,
+10/8/21,15:21,Brighton,Manchester United,Home,L,0,4,16,1,11.9,2,1,0,2021,,
+1/28/22,17:23,Tottenham,Newcastle United,Home,W,2,0,19,7,19.5,0,0,1,2022,,
+10/12/21,19:29,Southampton,Leicester City,Away,W,4,1,13,3,17.2,1,0,0,2021,,
+9/19/21,18:08,Southampton,Brentford,Away,L,2,4,18,6,14.3,1,0,1,2021,,
+11/1/21,14:08,Crystal Palace,Manchester City,Home,L,0,3,19,5,13.7,3,1,0,2021,,
+5/12/22,13:49,Arsenal,Leicester City,Away,D,4,4,21,9,15.2,0,0,1,2022,,
+12/9/21,13:36,Burnley,West Ham,Away,D,3,3,23,8,18,0,1,1,2021,,
+12/7/21,17:10,Burnley,Manchester City,Home,L,1,3,11,2,15,1,1,0,2021,,
+5/24/22,16:07,Brighton,West Ham,Home,D,4,4,10,5,14.8,4,1,1,2022,,
+9/29/21,16:27,Chelsea,Southampton,Away,W,4,3,12,1,15.3,3,1,0,2021,,
+5/22/22,14:21,Leicester City,Manchester United,Away,L,1,2,21,5,15.1,2,1,0,2022,,
+2/10/22,17:04,Watford,Brentford,Home,L,0,2,18,3,10.4,1,0,1,2022,,
+8/2/21,18:59,Leeds United,Liverpool,Home,W,4,0,7,5,12.8,4,1,1,2021,,
+9/15/21,16:06,Watford,Wolves,Away,D,2,2,8,8,19.8,2,1,0,2021,,
+8/14/23,20:00,Manchester United,Wolves,Home,W,1,0,15,6,12.3,3,0,0,2023,,
+8/21/23,16:30,Liverpool,Manchester City,Home,D,2,2,14,6,14.7,2,1,1,2023,,
+8/28/23,17:45,Arsenal,Tottenham,Home,W,2,0,18,7,16.1,1,0,0,2023,,
+9/2/23,15:00,Chelsea,Brentford,Away,D,1,1,12,4,13.2,1,0,0,2023,,
+9/9/23,12:30,Newcastle United,Brighton,Home,W,2,1,10,4,15.8,2,1,0,2023,,
+9/16/23,17:30,Aston Villa,Crystal Palace,Home,W,3,1,15,7,14.2,3,1,1,2023,,
+9/23/23,14:00,Everton,Bournemouth,Away,L,1,3,9,2,12.6,1,0,0,2023,,
+9/30/23,15:00,Fulham,West Ham,Home,D,1,1,11,3,13.5,0,0,0,2023,,
+10/7/23,17:30,Leicester City,Southampton,Home,W,2,0,13,5,16.7,3,0,0,2023,,
+10/14/23,12:30,Nottingham Forest,Luton Town,Away,W,3,1,16,8,15.9,2,1,1,2023,,
+10/21/23,15:00,Manchester City,Brighton,Home,W,2,1,19,6,17.3,1,0,0,2023,,
+10/28/23,17:30,Tottenham,Crystal Palace,Away,L,0,1,12,3,13.1,2,0,0,2023,,
+11/4/23,12:30,Chelsea,Arsenal,Home,D,2,2,14,5,14.6,3,1,0,2023,,
+11/11/23,15:00,Brentford,Liverpool,Away,L,0,3,8,2,12.8,1,0,0,2023,,
+11/18/23,17:30,Manchester United,Everton,Home,W,3,0,16,7,15.7,2,1,1,2023,,
+11/25/23,15:00,Newcastle United,Manchester City,Away,L,1,2,10,3,14.9,1,0,0,2023,,
+12/2/23,12:30,Bournemouth,Aston Villa,Home,D,1,1,12,4,13.4,0,0,0,2023,,
+12/9/23,17:30,West Ham,Tottenham,Home,L,0,2,9,3,15.2,2,0,0,2023,,
+12/16/23,15:00,Wolves,Chelsea,Away,L,1,3,11,4,16.8,1,0,0,2023,,
+12/23/23,12:30,Crystal Palace,Liverpool,Home,D,1,1,7,2,14.1,3,1,0,2023,,
+12/26/23,15:00,Luton Town,Newcastle United,Home,L,1,4,10,3,15.5,2,0,0,2023,,
+12/30/23,17:30,Fulham,Arsenal,Away,L,0,2,8,2,13.9,1,0,0,2023,,
+1/2/24,20:00,Everton,Leicester City,Home,W,2,0,14,6,17.6,3,0,0,2024,,
+1/9/24,19:45,Nottingham Forest,Manchester United,Away,L,0,2,9,2,14.5,1,0,0,2024,,
+1/13/24,15:00,Brentford,Nottingham Forest,Home,W,3,1,15,7,16.3,2,1,1,2024,,
+1/20/24,12:30,Manchester City,Fulham,Home,W,4,0,22,10,18.7,1,1,0,2024,,
+1/27/24,17:30,Tottenham,Manchester City,Away,D,2,2,13,5,15.3,3,0,0,2024,,
+2/3/24,15:00,Liverpool,Chelsea,Home,W,4,1,19,9,17.8,2,1,0,2024,,
+2/10/24,12:30,Brighton,Wolves,Away,W,3,2,16,7,16.2,1,0,0,2024,,
+2/17/24,17:30,Crystal Palace,Burnley,Home,W,3,0,18,8,15.1,3,0,0,2024,,
+2/24/24,15:00,Arsenal,Newcastle United,Home,W,4,1,21,9,18.9,2,1,1,2024,,
+3/2/24,12:30,Chelsea,Brentford,Home,W,2,0,17,6,14.6,1,0,0,2024,,
+3/9/24,15:00,Southampton,Nottingham Forest,Away,L,1,3,10,3,13.8,2,0,0,2024,,
+8/15/23,19:30,Arsenal,Fulham,Home,W,2,1,16,7,15.7,1,0,0,2023,,
+8/22/23,16:00,Liverpool,Newcastle United,Away,W,3,1,15,6,14.3,2,1,1,2023,,
+8/29/23,18:15,Aston Villa,Burnley,Home,W,3,0,14,5,16.5,2,0,0,2023,,
+9/3/23,14:30,Manchester City,West Ham,Away,D,1,1,17,5,15.9,1,0,0,2023,,
+9/10/23,13:00,Tottenham,Sheffield United,Home,W,2,0,16,7,17.2,3,0,0,2023,,
+9/17/23,16:45,Chelsea,Bournemouth,Home,W,3,1,18,8,14.8,2,1,0,2023,,
+9/24/23,13:15,Brentford,Everton,Away,D,2,2,13,4,13.4,1,0,0,2023,,
+10/1/23,14:45,Crystal Palace,Wolves,Home,W,2,1,14,6,15.1,3,0,0,2023,,
+10/8/23,16:30,Brighton,Manchester United,Away,L,1,2,12,4,14.7,2,0,0,2023,,
+10/15/23,11:45,Nottingham Forest,Luton Town,Home,W,2,0,15,6,16.3,1,1,0,2023,,
+10/22/23,14:15,Leicester City,Crystal Palace,Away,D,1,1,10,3,15.6,3,0,0,2023,,
+10/29/23,16:45,Newcastle United,Arsenal,Home,L,0,1,9,2,14.9,1,0,0,2023,,
+11/5/23,11:45,Bournemouth,Manchester City,Away,L,0,3,7,1,13.2,2,0,0,2023,,
+11/12/23,14:15,West Ham,Nottingham Forest,Home,W,3,1,17,8,17.5,3,1,1,2023,,
+11/19/23,16:45,Wolves,Fulham,Home,D,1,1,12,3,15.8,2,0,0,2023,,
+11/26/23,13:15,Everton,Manchester United,Away,L,0,2,10,2,14.1,1,0,0,2023,,
+12/3/23,14:45,Sheffield United,Brentford,Away,L,0,3,8,2,13.7,3,0,0,2023,,
+12/10/23,16:30,Burnley,Brighton,Home,D,2,2,13,5,16.9,2,1,0,2023,,
+12/17/23,11:45,Fulham,West Ham,Away,W,3,1,15,6,14.5,1,0,0,2023,,
+12/24/23,14:15,Luton Town,Sheffield United,Home,W,2,0,14,5,17.8,3,0,0,2023,,
+12/27/23,16:45,Manchester United,Aston Villa,Home,D,2,2,16,7,15.3,2,1,1,2023,,
+12/31/23,11:45,Tottenham,Bournemouth,Away,W,3,1,17,8,16.7,1,0,0,2023,,
+1/3/24,14:15,Newcastle United,Liverpool,Home,L,1,3,11,3,14.2,3,0,0,2024,,
+1/10/24,19:00,Arsenal,Crystal Palace,Home,W,2,0,15,6,17.6,2,0,0,2024,,
+1/14/24,14:00,Brighton,Everton,Home,W,2,1,14,5,15.9,1,1,0,2024,,
+1/21/24,11:30,Manchester City,Sheffield United,Home,W,4,0,23,11,18.2,3,1,0,2024,,
+1/28/24,16:00,Chelsea,Wolves,Away,W,3,1,16,7,14.7,2,0,0,2024,,
+2/4/24,13:30,Liverpool,Arsenal,Home,D,1,1,12,4,16.3,1,0,0,2024,,
+2/11/24,16:00,Brentford,Manchester City,Away,L,0,2,9,2,15.1,3,0,0,2024,,
+2/18/24,13:30,West Ham,Aston Villa,Home,L,1,2,10,3,14.8,2,0,0,2024,,
+2/25/24,16:00,Burnley,Tottenham,Away,L,0,3,8,2,13.9,1,0,0,2024,,
+3/3/24,13:30,Luton Town,Liverpool,Away,L,0,4,6,1,15.7,3,0,0,2024,,
+3/10/24,16:00,Nottingham Forest,Brighton,Home,D,2,2,14,5,17.3,2,1,1,2024,,
+8/16/23,18:45,Manchester United,Brighton,Home,L,1,2,12,4,14.9,1,0,0,2023,,
+8/23/23,15:15,Chelsea,Luton Town,Home,W,3,0,17,7,16.8,3,0,0,2023,,
+8/30/23,17:30,Newcastle United,Liverpool,Home,D,1,1,13,5,15.2,2,1,0,2023,,
+9/4/23,13:45,Tottenham,Manchester United,Away,L,1,3,10,3,14.6,1,0,0,2023,,
+9/11/23,12:15,Arsenal,Everton,Home,W,2,0,16,7,17.1,3,0,0,2023,,
+9/18/23,15:45,Crystal Palace,Aston Villa,Away,L,0,2,9,2,13.8,2,0,0,2023,,
+9/25/23,12:30,West Ham,Manchester City,Home,L,1,3,10,3,15.4,1,0,0,2023,,
+10/2/23,13:30,Bournemouth,Brighton,Away,L,0,2,8,2,14.1,3,0,0,2023,,
+10/9/23,15:45,Wolves,Nottingham Forest,Home,W,2,1,15,6,16.7,2,1,1,2023,,
+10/16/23,12:00,Fulham,Brentford,Home,D,1,1,12,4,15.3,1,0,0,2023,,
+10/23/23,13:30,Sheffield United,Newcastle United,Away,L,0,4,7,1,13.9,3,0,0,2023,,
+10/30/23,15:45,Burnley,Chelsea,Home,L,0,2,9,2,14.7,2,0,0,2023,,
+11/6/23,12:00,Everton,Crystal Palace,Home,W,2,0,14,5,16.5,1,1,0,2023,,
+11/13/23,13:30,Liverpool,Tottenham,Home,W,3,1,18,8,17.9,3,0,0,2023,,
+11/20/23,15:45,Manchester City,Leicester City,Away,W,3,1,19,9,16.2,2,1,0,2023,,
+11/27/23,12:00,Brighton,West Ham,Home,D,2,2,15,6,15.6,1,0,0,2023,,
+12/4/23,13:30,Aston Villa,Bournemouth,Away,W,3,1,17,7,16.9,3,0,0,2023,,
+12/11/23,15:45,Luton Town,Fulham,Home,L,1,2,10,3,14.3,2,0,0,2023,,
+12/18/23,12:00,Brentford,Sheffield United,Home,W,2,0,15,6,17.7,1,0,0,2023,,
+12/25/23,13:30,Nottingham Forest,Burnley,Away,D,1,1,12,4,15.1,3,1,1,2023,,
+12/28/23,15:45,Manchester United,Newcastle United,Home,W,2,1,16,7,14.8,2,0,0,2023,,
+1/1/24,12:00,Arsenal,Wolverhampton,Home,W,3,0,19,9,18.2,1,0,0,2024,,
+1/4/24,13:30,Tottenham,Liverpool,Away,L,0,3,8,2,13.6,3,0,0,2024,,
+1/11/24,19:15,Leicester City,Bournemouth,Home,W,2,0,14,5,16.4,2,1,0,2024,,
+1/15/24,13:00,Crystal Palace,Brentford,Away,D,1,1,11,3,15.7,1,0,0,2024,,
+1/22/24,12:45,Everton,Luton Town,Home,W,2,0,15,6,17.3,3,0,0,2024,,
+1/29/24,15:15,Newcastle United,Manchester City,Home,L,0,2,10,3,14.5,2,0,0,2024,,s
+2/5/24,12:45,Chelsea,Crystal Palace,Home,W,3,1,17,8,16.8,1,1,1,2024,,
+2/12/24,15:15,Aston Villa,Manchester United,Away,L,1,3,11,4,15.2,3,0,0,2024,,
+2/19/24,12:45,Bournemouth,Newcastle United,Away,L,0,2,9,2,14.9,2,0,0,2024,,
+2/26/24,15:15,West Ham,Arsenal,Home,L,0,1,10,3,16.3,1,0,0,2024,,
+3/4/24,12:45,Brighton,Fulham,Home,W,2,0,15,6,17.6,3,0,0,2024,,
+3/11/24,15:15,Wolves,Southampton,Away,W,3,1,16,7,15.8,2,1,0,2024,,

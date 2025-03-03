@@ -8,6 +8,10 @@ import io
 import sys
 import os
 import traceback
+from ml.model import train_ensemble_model
+# ml/ensemble_model.py
+# Line 8:
+
 
 # Add parent directory to path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -61,13 +65,19 @@ async def startup_event():
         # Try to load existing data
         app.state.data = load_data(DATA_PATH)
         app.state.processed_data = prepare_model_data(app.state.data) if not app.state.data.empty else None
+        
+        # Train both models
         app.state.model = train_prediction_model(app.state.processed_data) if app.state.processed_data is not None else None
+        app.state.ensemble_model = train_ensemble_model(app.state.processed_data) if app.state.processed_data is not None else None
+        
+        print("Models trained successfully")
     except Exception as e:
         print(f"Error during startup: {e}")
         # Initialize with empty data
         app.state.data = pd.DataFrame(columns=['date', 'team', 'opponent', 'venue', 'result', 'gf', 'ga', 'sh', 'sot', 'time'])
         app.state.processed_data = None
         app.state.model = None
+        app.state.ensemble_model = None
 
 @app.get("/")
 async def root():
@@ -263,6 +273,103 @@ async def get_data_insights(team_name: str = None):
 # api/main.py - Enhanced predict endpoint
 
 # api/main.py - Complete replacement for the predict endpoint
+@app.post("/predict-ensemble/")
+async def predict_match_ensemble(prediction_request: dict):
+    """Make predictions using the ensemble model"""
+    if not hasattr(app.state, 'ensemble_model') or app.state.ensemble_model is None:
+        # Fallback to simple prediction if ensemble model not available
+        return await predict_match_simple(prediction_request)
+    
+    try:
+        # Extract basic info
+        home_team = prediction_request.get('home_team', '')
+        away_team = prediction_request.get('away_team', '')
+        team_to_predict = prediction_request.get('team_to_predict', 'home').lower()
+        
+        # Determine team and venue
+        if team_to_predict == 'home':
+            team = home_team
+            opponent = away_team
+            venue = 'Home'
+        else:
+            team = away_team
+            opponent = home_team
+            venue = 'Away'
+            
+        # Create match details dictionary
+        match_details = {
+            "date": prediction_request.get('match_date', pd.Timestamp.now().strftime('%Y-%m-%d')),
+            "time": prediction_request.get('match_time', '15:00'),
+            "team": team,
+            "opponent": opponent,
+            "venue": venue,
+            "gf_rolling": float(prediction_request.get('goals_for', 1.5)),
+            "ga_rolling": float(prediction_request.get('goals_against', 1.0)),
+            "sh_rolling": float(prediction_request.get('shots', 12.0)),
+            "sot_rolling": float(prediction_request.get('shots_on_target', 5.0)),
+        }
+        
+        # Add optional stats if provided
+        optional_fields = {
+            "dist_rolling": "distance", 
+            "fk_rolling": "free_kicks", 
+            "pk_rolling": "penalties", 
+            "pkatt_rolling": "penalty_attempts"
+        }
+        
+        for model_field, request_field in optional_fields.items():
+            if request_field in prediction_request and prediction_request[request_field] is not None:
+                match_details[model_field] = float(prediction_request[request_field])
+        
+        # Prepare data for prediction
+        match_df = prepare_match_prediction_data(match_details, app.state.processed_data)
+        
+        # Extract features used in training
+        predictors = app.state.ensemble_model.predictors
+        available_predictors = [p for p in predictors if p in match_df.columns]
+        
+        # Make sure all predictors exist
+        for p in predictors:
+            if p not in match_df.columns:
+                match_df[p] = 0  # Default value
+        
+        # Make prediction with ensemble model
+        win_probability = float(app.state.ensemble_model.predict_proba(match_df[predictors])[0][1])
+        prediction = "WIN" if win_probability > 0.5 else "NOT WIN"
+        
+        # Get feature importance from ensemble model
+        feature_importance = app.state.ensemble_model.get_feature_importance()
+        key_factors = feature_importance.head(5).to_dict('records')
+        
+        # Compare with original model if available
+        model_comparison = {}
+        if hasattr(app.state, 'model') and app.state.model is not None:
+            try:
+                original_prob = float(app.state.model.predict_proba(match_df[predictors])[0][1])
+                model_comparison = {
+                    "rf_only_probability": original_prob,
+                    "ensemble_probability": win_probability,
+                    "probability_difference": win_probability - original_prob
+                }
+            except:
+                pass
+        
+        return {
+            "team": team,
+            "opponent": opponent,
+            "win_probability": win_probability,
+            "prediction": prediction,
+            "key_factors": key_factors,
+            "model_version": app.state.ensemble_model.model_version,
+            "model_comparison": model_comparison
+        }
+        
+    except Exception as e:
+        print(f"Error in ensemble prediction: {e}")
+        import traceback
+        traceback.print_exc()
+        # Fall back to simple prediction
+        return await predict_match_simple(prediction_request)
 
 @app.post("/predict/")
 async def predict_match(prediction_request: dict):  # Change to accept a dictionary instead of a model
@@ -453,11 +560,6 @@ async def upload_data(file: UploadFile = File(...)):
             print(error_msg)
             raise HTTPException(status_code=400, detail=error_msg)
         
-        # Process the rest of your upload code...
-        # (rest of your function remains the same)
-            # Print the first few rows for debugging
-          
-        
         # Add default values for missing optional columns
         if 'time' not in data.columns:
             data['time'] = '15:00'  # Default match time
@@ -522,22 +624,29 @@ async def upload_data(file: UploadFile = File(...)):
             processed_data = data
             print("Used fallback data processing")
         
-        # Train model
+        # Train models - both regular and ensemble
         try:
+            # Train regular model
             model = train_prediction_model(processed_data)
-            print("Model training successful")
+            print("Regular model training successful")
+            
+            # Train ensemble model
+            ensemble_model = train_ensemble_model(processed_data)
+            print("Ensemble model training successful")
         except Exception as model_error:
-            print(f"Error training model: {model_error}")
+            print(f"Error training models: {model_error}")
             import traceback
             traceback.print_exc()
-            # Create a default model
+            # Create default models
             model = train_prediction_model(None)
+            ensemble_model = train_ensemble_model(None)
             print("Used fallback model creation")
         
         # Update application state
         app.state.data = data
         app.state.processed_data = processed_data
         app.state.model = model
+        app.state.ensemble_model = ensemble_model
         
         # Ensure data directory exists
         os.makedirs(os.path.dirname(DATA_PATH), exist_ok=True)

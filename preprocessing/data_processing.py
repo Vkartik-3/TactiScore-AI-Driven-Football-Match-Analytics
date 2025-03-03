@@ -26,7 +26,59 @@ def load_data(file_path):
     except FileNotFoundError:
         # Create and return empty DataFrame with required columns
         return pd.DataFrame(columns=['date', 'team', 'opponent', 'venue', 'result', 'gf', 'ga', 'sh', 'sot', 'time'])
+# Add this function to preprocessing/data_processing.py
 
+def add_advanced_features(data):
+    """Add advanced features to improve model accuracy"""
+    # Make a copy to avoid modifying the original
+    enhanced_data = data.copy()
+    
+    # Add goal difference
+    if 'gf' in enhanced_data.columns and 'ga' in enhanced_data.columns:
+        enhanced_data['goal_diff'] = enhanced_data['gf'] - enhanced_data['ga']
+    
+    # Add shots efficiency (shots on target / shots)
+    if 'sh' in enhanced_data.columns and 'sot' in enhanced_data.columns:
+        enhanced_data['shot_efficiency'] = enhanced_data['sot'] / enhanced_data['sh'].replace(0, 1)  # Avoid division by zero
+    
+    # Calculate team form (recent performance)
+    if 'team' in enhanced_data.columns and 'date' in enhanced_data.columns and 'result' in enhanced_data.columns:
+        # Sort by date
+        enhanced_data = enhanced_data.sort_values(['team', 'date'])
+        
+        # Create form points (W=3, D=1, L=0)
+        enhanced_data['form_points'] = enhanced_data['result'].map({'W': 3, 'D': 1, 'L': 0})
+        
+        # Calculate rolling form (last 3 matches)
+        enhanced_data['form_3'] = enhanced_data.groupby('team')['form_points'].transform(
+            lambda x: x.rolling(3, min_periods=1).mean()
+        )
+    
+    # Calculate home/away performance
+    if 'team' in enhanced_data.columns and 'venue' in enhanced_data.columns and 'result' in enhanced_data.columns:
+        # Create win indicator
+        enhanced_data['is_win'] = (enhanced_data['result'] == 'W').astype(int)
+        
+        # Calculate home win percentage
+        home_win_pct = enhanced_data[enhanced_data['venue'] == 'Home'].groupby('team')['is_win'].mean()
+        home_win_dict = home_win_pct.to_dict()
+        
+        # Calculate away win percentage
+        away_win_pct = enhanced_data[enhanced_data['venue'] == 'Away'].groupby('team')['is_win'].mean()
+        away_win_dict = away_win_pct.to_dict()
+        
+        # Add to dataframe
+        enhanced_data['team_home_win_pct'] = enhanced_data.apply(
+            lambda row: home_win_dict.get(row['team'], 0.5) if row['venue'] == 'Home' else away_win_dict.get(row['team'], 0.3),
+            axis=1
+        )
+        
+        enhanced_data['opp_away_win_pct'] = enhanced_data.apply(
+            lambda row: away_win_dict.get(row['opponent'], 0.3) if row['venue'] == 'Home' else home_win_dict.get(row['opponent'], 0.5),
+            axis=1
+        )
+    
+    return enhanced_data
 def encode_categorical_features(df):
     """Convert categorical variables to numerical codes."""
     # Generate team codes
@@ -87,7 +139,25 @@ def calculate_rolling_averages(group, cols, new_cols):
                 group[col] = group[col].fillna(group[col].mean())
     
     return group
-
+# Add this to preprocessing/data_processing.py
+def augment_data(data, n_samples=50):
+    """Generate additional data based on existing patterns"""
+    # Create a copy of existing data
+    synthetic_data = data.sample(n_samples, replace=True).copy()
+    
+    # Add some random variations
+    for col in ['gf', 'ga', 'sh', 'sot']:
+        if col in synthetic_data.columns:
+            synthetic_data[col] = synthetic_data[col] + np.random.normal(0, 0.5, n_samples)
+    
+    # Recalculate results based on new values
+    synthetic_data['result'] = synthetic_data.apply(
+        lambda x: 'W' if x['gf'] > x['ga'] else ('D' if x['gf'] == x['ga'] else 'L'), 
+        axis=1
+    )
+    
+    # Combine with original data
+    return pd.concat([data, synthetic_data])
 def prepare_model_data(df):
     """Prepare data for model training with all preprocessing steps."""
     if df.empty:

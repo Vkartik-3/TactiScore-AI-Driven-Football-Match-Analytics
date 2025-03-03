@@ -71,10 +71,10 @@ class FootballPredictionModel:
 
 # ml/model.py - Enhanced train_prediction_model function
 
-def train_prediction_model(data, train_date_cutoff='2022-01-01'):
+def train_prediction_model(data, train_date_cutoff='2023-01-01'):
     """Train the football prediction model with enhanced error handling and features."""
     print("Training prediction model...")
-    
+    from preprocessing.data_processing import add_advanced_features
     # Handle empty or invalid data
     if data is None or len(data) == 0:
         print("No data provided, creating default model")
@@ -128,7 +128,11 @@ def train_prediction_model(data, train_date_cutoff='2022-01-01'):
         
         # Filter valid data
         valid_data = data.dropna(subset=all_predictors + ['target'])
-        
+        valid_data = add_advanced_features(valid_data)
+        if len(valid_data) < 100:  # If we have fewer than 100 samples
+            from preprocessing.data_processing import augment_data
+            print(f"Augmenting data from {len(valid_data)} to {len(valid_data) + 50} samples")
+            valid_data = augment_data(valid_data, n_samples=50)
         if len(valid_data) == 0:
             print("No valid data after filtering, creating default model")
             model = FootballPredictionModel()
@@ -137,17 +141,12 @@ def train_prediction_model(data, train_date_cutoff='2022-01-01'):
         
         print(f"Training with {len(valid_data)} valid matches")
         
-        # Split data for training
+        # Use random train-test split instead of date-based
         try:
-            data['date'] = pd.to_datetime(data['date'])
-            train_date = pd.to_datetime(train_date_cutoff)
-            train = data[data['date'] < train_date] if 'date' in data.columns else data
-            
-            if len(train) < 10:  # Not enough training data
-                print("Not enough training data, using all data")
-                train = data
+            from sklearn.model_selection import train_test_split
+            train, _ = train_test_split(data, test_size=0.2, random_state=42)
         except:
-            print("Error parsing dates, using all data for training")
+            print("Error with train-test split, using all data for training")
             train = data
         
         # Train model
@@ -221,3 +220,136 @@ def prepare_match_prediction_data(match_details, historical_data):
             match_df[key] = value
     
     return match_df
+def train_ensemble_model(data, train_date_cutoff='2023-01-01', rf_weight=0.5, xgb_weight=0.5):
+    """
+    Train the ensemble football prediction model combining RandomForest and XGBoost.
+    
+    Args:
+        data: Processed match data
+        train_date_cutoff: Date to split training/testing data
+        rf_weight: Weight for RandomForest model (between 0 and 1)
+        xgb_weight: Weight for XGBoost model (between 0 and 1)
+        
+    Returns:
+        Trained ensemble model
+    """
+    from ml.ensemble_model import EnsemblePredictor
+    from preprocessing.data_processing import add_advanced_features
+    print("Training ensemble prediction model...")
+    
+    # Handle empty or invalid data
+    if data is None or len(data) == 0:
+        print("No data provided, creating default ensemble model")
+        model = EnsemblePredictor(weights=(rf_weight, xgb_weight))
+        model.predictors = ['venue_code', 'opp_code', 'hour', 'day_code', 
+                          'gf_rolling', 'ga_rolling', 'sh_rolling', 'sot_rolling']
+        return model
+    
+    try:
+        # Define predictors
+        basic_predictors = ['venue_code', 'opp_code', 'hour', 'day_code']
+        
+        # Get available rolling predictors
+        rolling_predictors = [col for col in data.columns if '_rolling' in col]
+        
+        # If no rolling predictors are found, use defaults
+        if not rolling_predictors:
+            print("No rolling predictors found, adding defaults")
+            rolling_predictors = ['gf_rolling', 'ga_rolling', 'sh_rolling', 'sot_rolling']
+            # Add default values for missing columns
+            for col in rolling_predictors:
+                if col not in data.columns:
+                    base_col = col.split('_')[0]
+                    if base_col in data.columns:
+                        data[col] = data[base_col]
+                    else:
+                        default_values = {'gf': 1.5, 'ga': 1.0, 'sh': 12.0, 'sot': 5.0}
+                        data[col] = default_values.get(base_col, 1.0)
+        
+        all_predictors = basic_predictors + rolling_predictors
+        
+        # Ensure all predictors exist in the data
+        for predictor in all_predictors:
+            if predictor not in data.columns:
+                print(f"Adding missing predictor: {predictor}")
+                if predictor == 'venue_code':
+                    data[predictor] = data['venue'].map({'Home': 1, 'Away': 0}) if 'venue' in data.columns else 1
+                elif predictor == 'opp_code':
+                    data[predictor] = 0
+                elif predictor == 'hour':
+                    data[predictor] = 15
+                elif predictor == 'day_code':
+                    data[predictor] = 0
+                else:
+                    data[predictor] = 1.0
+        
+        # Ensure target column exists
+        if 'target' not in data.columns:
+            print("Creating target column")
+            data['target'] = data['result'].map({'W': 1, 'D': 0, 'L': 0}) if 'result' in data.columns else 0
+        
+        # Filter valid data
+        valid_data = data.dropna(subset=all_predictors + ['target'])
+        valid_data = add_advanced_features(valid_data)
+        if len(valid_data) < 100:  # If we have fewer than 100 samples
+            from preprocessing.data_processing import augment_data
+            print(f"Augmenting data from {len(valid_data)} to {len(valid_data) + 50} samples")
+            valid_data = augment_data(valid_data, n_samples=50)
+        if len(valid_data) == 0:
+            print("No valid data after filtering, creating default ensemble model")
+            model = EnsemblePredictor(weights=(rf_weight, xgb_weight))
+            model.predictors = all_predictors
+            return model
+        
+        print(f"Training with {len(valid_data)} valid matches")
+        
+        # Split data for training
+        try:
+            data['date'] = pd.to_datetime(data['date'])
+            train_date = pd.to_datetime(train_date_cutoff)
+            from sklearn.model_selection import train_test_split
+            train, _ = train_test_split(data, test_size=0.2, random_state=42)
+            
+            if len(train) < 10:  # Not enough training data
+                print("Not enough training data, using all data")
+                train = data
+        except:
+            print("Error parsing dates, using all data for training")
+            train = data
+        
+        # Create and train ensemble model
+        model = EnsemblePredictor(
+            weights=(rf_weight, xgb_weight),
+            model_version=f"ensemble-{pd.Timestamp.now().strftime('%Y%m%d')}"
+        )
+        
+        X_train = train[all_predictors]
+        y_train = train['target']
+        
+        print(f"Training ensemble model with {len(X_train)} samples and {len(all_predictors)} features")
+        model.train(X_train, y_train)
+        
+        # Evaluate model if we have test data
+        try:
+            test = data[data['date'] >= train_date]
+            if len(test) > 10:  # Only evaluate if enough test data
+                X_test = test[all_predictors]
+                y_test = test['target']
+                metrics = model.evaluate(X_test, y_test)
+                print(f"Ensemble model evaluation metrics: {metrics}")
+        except Exception as e:
+            print(f"Could not evaluate model: {e}")
+        
+        print("Ensemble model training completed")
+        return model
+        
+    except Exception as e:
+        print(f"Error in ensemble model training: {e}")
+        import traceback
+        traceback.print_exc()
+        
+        # Return a default model
+        model = EnsemblePredictor(weights=(rf_weight, xgb_weight))
+        model.predictors = ['venue_code', 'opp_code', 'hour', 'day_code', 
+                          'gf_rolling', 'ga_rolling', 'sh_rolling', 'sot_rolling']
+        return model
