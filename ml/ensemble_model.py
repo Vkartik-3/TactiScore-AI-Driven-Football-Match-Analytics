@@ -15,9 +15,9 @@ class EnsemblePredictor:
                  rf_n_estimators=200, 
                  rf_min_samples_split=10,
                  xgb_n_estimators=100,
-                 xgb_learning_rate=0.1,
-                 xgb_max_depth=5,
-                 weights=(0.5, 0.5),
+                 xgb_learning_rate=0.05,  # Reduced learning rate for better generalization
+                 xgb_max_depth=3,         # Reduced depth to avoid overfitting
+                 weights=(0.7, 0.3),      # Give more weight to RandomForest (70%)
                  model_version="1.0"):
         """
         Initialize the ensemble model with RandomForest and XGBoost.
@@ -38,11 +38,13 @@ class EnsemblePredictor:
             random_state=42
         )
         
-        # XGBoost model
+        # XGBoost model with tuned parameters for football data
         self.xgb_model = xgb.XGBClassifier(
             n_estimators=xgb_n_estimators,
             learning_rate=xgb_learning_rate,
             max_depth=xgb_max_depth,
+            subsample=0.8,           # Use 80% of data per tree to reduce overfitting
+            colsample_bytree=0.8,    # Use 80% of features per tree for diversity
             random_state=42,
             use_label_encoder=False,
             eval_metric='logloss'
@@ -58,6 +60,8 @@ class EnsemblePredictor:
             'xgb_n_estimators': xgb_n_estimators,
             'xgb_learning_rate': xgb_learning_rate,
             'xgb_max_depth': xgb_max_depth,
+            'xgb_subsample': 0.8,
+            'xgb_colsample_bytree': 0.8,
             'weights': weights
         }
         
@@ -94,6 +98,38 @@ class EnsemblePredictor:
         # Calculate feature importance
         self._calculate_feature_importance()
         
+        return self
+    
+    def tune_weights(self, X_val, y_val):
+        """
+        Tune the weights of ensemble models based on validation performance.
+        
+        Args:
+            X_val: Validation features
+            y_val: Validation target
+        """
+        # Get predictions from both models
+        rf_proba = self.rf_model.predict_proba(X_val)[:, 1]
+        xgb_proba = self.xgb_model.predict_proba(X_val)[:, 1]
+        
+        # Try different weight combinations
+        best_auc = 0
+        best_weights = self.weights
+        
+        from sklearn.metrics import roc_auc_score
+        
+        for rf_weight in [0.5, 0.6, 0.7, 0.8, 0.9]:
+            xgb_weight = 1.0 - rf_weight
+            ensemble_proba = rf_weight * rf_proba + xgb_weight * xgb_proba
+            auc = roc_auc_score(y_val, ensemble_proba)
+            
+            if auc > best_auc:
+                best_auc = auc
+                best_weights = (rf_weight, xgb_weight)
+        
+        print(f"Tuned weights: RF={best_weights[0]:.2f}, XGB={best_weights[1]:.2f}, AUC={best_auc:.4f}")
+        self.weights = best_weights
+        self.hyperparams['weights'] = best_weights
         return self
     
     def predict(self, X):

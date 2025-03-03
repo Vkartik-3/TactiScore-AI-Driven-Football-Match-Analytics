@@ -300,7 +300,7 @@ def prepare_match_prediction_data(match_details, historical_data):
     
     return match_df
 
-def train_ensemble_model(data, train_date_cutoff='2023-01-01', rf_weight=0.5, xgb_weight=0.5):
+def train_ensemble_model(data, train_date_cutoff='2023-01-01', rf_weight=0.7, xgb_weight=0.3):
     """
     Train the ensemble football prediction model combining RandomForest and XGBoost.
     
@@ -415,20 +415,29 @@ def train_ensemble_model(data, train_date_cutoff='2023-01-01', rf_weight=0.5, xg
         
         print(f"Training with {len(valid_data)} valid matches")
         
-        # Split data for training
+        # Split data for training, validation, and testing
         train, test = train_test_split(valid_data, test_size=0.2, random_state=42)
+        train_split, val_split = train_test_split(train, test_size=0.25, random_state=42)
         
-        # Create and train ensemble model
+        # Create and train ensemble model with new hyperparameters
         model = EnsemblePredictor(
             weights=(rf_weight, xgb_weight),
-            model_version=model_version
+            model_version=model_version,
+            xgb_learning_rate=0.05,
+            xgb_max_depth=3
         )
         
-        X_train = train[all_predictors]
-        y_train = train['target']
+        X_train = train_split[all_predictors]
+        y_train = train_split['target']
         
         print(f"Training ensemble model with {len(X_train)} samples and {len(all_predictors)} features")
         model.train(X_train, y_train)
+        
+        # Tune weights using validation set
+        X_val = val_split[all_predictors]
+        y_val = val_split['target']
+        print("Tuning ensemble weights using validation data...")
+        model.tune_weights(X_val, y_val)
         
         # Evaluate model if we have test data
         metrics = {}
@@ -437,13 +446,18 @@ def train_ensemble_model(data, train_date_cutoff='2023-01-01', rf_weight=0.5, xg
             y_test = test['target']
             metrics = model.evaluate(X_test, y_test)
             print(f"Ensemble model evaluation metrics: {metrics}")
+            
+            # Also print individual model performances for comparison
+            print(f"RandomForest accuracy: {metrics['rf_accuracy']:.4f}, AUC: {metrics['rf_auc']:.4f}")
+            print(f"XGBoost accuracy: {metrics['xgb_accuracy']:.4f}, AUC: {metrics['xgb_auc']:.4f}")
+            print(f"Ensemble accuracy: {metrics['accuracy']:.4f}, AUC: {metrics['auc']:.4f}")
         
         # Register model with version tracker
         version_tracker.register_model(
             model=model,
             model_type="ensemble",
             version_name=model_version,
-            description=f"Ensemble model (RF:{rf_weight}, XGB:{xgb_weight}) trained on {len(train)} samples",
+            description=f"Improved ensemble model (RF:{model.weights[0]}, XGB:{model.weights[1]}) trained on {len(train)} samples",
             hyperparameters=model.hyperparams,
             metrics=metrics
         )
