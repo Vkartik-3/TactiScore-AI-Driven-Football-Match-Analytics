@@ -1,0 +1,29 @@
+[2025-03-03T19:57:56.295-0500] {processor.py:186} INFO - Started process (PID=95860) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/simple_test.py
+[2025-03-03T19:57:56.295-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/simple_test.py for tasks to queue
+[2025-03-03T19:57:56.295-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:57:56.295-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/simple_test.py
+[2025-03-03T19:57:56.298-0500] {processor.py:925} INFO - DAG(s) 'simple_test' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/simple_test.py
+[2025-03-03T19:57:56.350-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:57:56.349-0500] {override.py:1930} INFO - Created Permission View: can delete on DAG:simple_test
+[2025-03-03T19:57:56.352-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:57:56.352-0500] {override.py:1930} INFO - Created Permission View: can edit on DAG:simple_test
+[2025-03-03T19:57:56.353-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:57:56.353-0500] {override.py:1930} INFO - Created Permission View: can read on DAG:simple_test
+[2025-03-03T19:57:56.355-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:57:56.355-0500] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:simple_test
+[2025-03-03T19:57:56.357-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:57:56.357-0500] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:simple_test
+[2025-03-03T19:57:56.358-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:57:56.358-0500] {override.py:1930} INFO - Created Permission View: can create on DAG Run:simple_test
+[2025-03-03T19:57:56.359-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:57:56.359-0500] {override.py:1930} INFO - Created Permission View: can read on DAG Run:simple_test
+[2025-03-03T19:57:56.359-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:57:56.359-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:57:56.363-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:57:56.363-0500] {dag.py:3262} INFO - Creating ORM DAG for simple_test
+[2025-03-03T19:57:56.363-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:57:56.363-0500] {dag.py:4180} INFO - Setting next_dagrun for simple_test to None, run_after=None
+[2025-03-03T19:57:56.367-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/simple_test.py took 0.073 seconds
+[2025-03-03T19:59:17.723-0500] {processor.py:186} INFO - Started process (PID=95981) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/simple_test.py
+[2025-03-03T19:59:17.724-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/simple_test.py for tasks to queue
+[2025-03-03T19:59:17.725-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:59:17.725-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/simple_test.py
+[2025-03-03T19:59:17.728-0500] {processor.py:925} INFO - DAG(s) 'simple_test' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/simple_test.py
+[2025-03-03T19:59:17.753-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:59:17.753-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:59:17.757-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:59:17.757-0500] {dag.py:4180} INFO - Setting next_dagrun for simple_test to None, run_after=None
+[2025-03-03T19:59:17.762-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/simple_test.py took 0.039 seconds
+[2025-03-03T20:00:40.038-0500] {processor.py:186} INFO - Started process (PID=96085) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/simple_test.py
+[2025-03-03T20:00:40.039-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/simple_test.py for tasks to queue
+[2025-03-03T20:00:40.040-0500] {logging_mixin.py:190} INFO - [2025-03-03T20:00:40.039-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/simple_test.py
+[2025-03-03T20:00:40.043-0500] {processor.py:925} INFO - DAG(s) 'simple_test' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/simple_test.py
+[2025-03-03T20:00:40.070-0500] {logging_mixin.py:190} INFO - [2025-03-03T20:00:40.069-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T20:00:40.073-0500] {logging_mixin.py:190} INFO - [2025-03-03T20:00:40.073-0500] {dag.py:4180} INFO - Setting next_dagrun for simple_test to None, run_after=None
+[2025-03-03T20:00:40.079-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/simple_test.py took 0.041 seconds

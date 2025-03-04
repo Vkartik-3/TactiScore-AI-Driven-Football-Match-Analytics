@@ -1,0 +1,197 @@
+[2025-03-03T19:20:39.611-0500] {processor.py:186} INFO - Started process (PID=89619) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:20:39.612-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-03T19:20:39.612-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:39.612-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:20:39.622-0500] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:20:39.677-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:39.676-0500] {override.py:1930} INFO - Created Permission View: can edit on DAG:tutorial_dag
+[2025-03-03T19:20:39.679-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:39.679-0500] {override.py:1930} INFO - Created Permission View: can read on DAG:tutorial_dag
+[2025-03-03T19:20:39.681-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:39.681-0500] {override.py:1930} INFO - Created Permission View: can delete on DAG:tutorial_dag
+[2025-03-03T19:20:39.683-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:39.683-0500] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:tutorial_dag
+[2025-03-03T19:20:39.684-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:39.684-0500] {override.py:1930} INFO - Created Permission View: can read on DAG Run:tutorial_dag
+[2025-03-03T19:20:39.686-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:39.686-0500] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:tutorial_dag
+[2025-03-03T19:20:39.687-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:39.687-0500] {override.py:1930} INFO - Created Permission View: can create on DAG Run:tutorial_dag
+[2025-03-03T19:20:39.688-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:39.688-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:20:39.692-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:39.692-0500] {dag.py:3262} INFO - Creating ORM DAG for tutorial_dag
+[2025-03-03T19:20:39.692-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:39.692-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-03T19:20:39.697-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.087 seconds
+[2025-03-03T19:22:27.861-0500] {processor.py:186} INFO - Started process (PID=90039) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:22:27.862-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-03T19:22:27.862-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:22:27.862-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:22:27.870-0500] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:22:27.896-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:22:27.895-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:22:27.898-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:22:27.898-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-03T19:22:27.904-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.044 seconds
+[2025-03-03T19:23:49.170-0500] {processor.py:186} INFO - Started process (PID=90298) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:23:49.171-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-03T19:23:49.172-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:23:49.172-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:23:49.180-0500] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:23:49.207-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:23:49.207-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:23:49.210-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:23:49.210-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-03T19:23:49.216-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.046 seconds
+[2025-03-03T19:25:13.337-0500] {processor.py:186} INFO - Started process (PID=90628) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:25:13.338-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-03T19:25:13.338-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:25:13.338-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:25:13.348-0500] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:25:13.374-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:25:13.374-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:25:13.378-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:25:13.378-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-03T19:25:13.383-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.048 seconds
+[2025-03-03T19:27:40.047-0500] {processor.py:186} INFO - Started process (PID=91308) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:27:40.047-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-03T19:27:40.048-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:27:40.047-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:27:40.057-0500] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:27:40.085-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:27:40.084-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:27:40.088-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:27:40.088-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-03T19:27:40.094-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.048 seconds
+[2025-03-03T19:29:28.449-0500] {processor.py:186} INFO - Started process (PID=91637) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:29:28.450-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-03T19:29:28.450-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:29:28.450-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:29:28.458-0500] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:29:28.484-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:29:28.484-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:29:28.487-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:29:28.487-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-03T19:29:28.492-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.044 seconds
+[2025-03-03T19:30:45.575-0500] {processor.py:186} INFO - Started process (PID=91849) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:30:45.576-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-03T19:30:45.576-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:30:45.576-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:30:45.585-0500] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:30:45.610-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:30:45.610-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:30:45.613-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:30:45.613-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-03T19:30:45.619-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.045 seconds
+[2025-03-03T19:31:56.728-0500] {processor.py:186} INFO - Started process (PID=92130) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:31:56.729-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-03T19:31:56.730-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:31:56.730-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:31:56.738-0500] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:31:56.764-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:31:56.764-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:31:56.767-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:31:56.766-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-03T19:31:56.772-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.045 seconds
+[2025-03-03T19:33:48.568-0500] {processor.py:186} INFO - Started process (PID=92429) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:33:48.569-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-03T19:33:48.570-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:33:48.569-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:33:48.578-0500] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:33:48.605-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:33:48.604-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:33:48.607-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:33:48.607-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-03T19:33:48.613-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.046 seconds
+[2025-03-03T19:35:08.500-0500] {processor.py:186} INFO - Started process (PID=92610) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:35:08.501-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-03T19:35:08.502-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:35:08.502-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:35:08.510-0500] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:35:08.537-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:35:08.537-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:35:08.540-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:35:08.540-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-03T19:35:08.546-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.046 seconds
+[2025-03-03T19:36:26.196-0500] {processor.py:186} INFO - Started process (PID=92781) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:36:26.196-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-03T19:36:26.197-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:36:26.196-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:36:26.206-0500] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:36:26.232-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:36:26.232-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:36:26.235-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:36:26.234-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-03T19:36:26.240-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.045 seconds
+[2025-03-03T19:37:49.076-0500] {processor.py:186} INFO - Started process (PID=92976) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:37:49.077-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-03T19:37:49.077-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:37:49.077-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:37:49.087-0500] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:37:49.114-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:37:49.114-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:37:49.117-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:37:49.117-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-03T19:37:49.123-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.047 seconds
+[2025-03-03T19:39:09.533-0500] {processor.py:186} INFO - Started process (PID=93159) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:39:09.534-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-03T19:39:09.534-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:39:09.534-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:39:09.543-0500] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:39:09.569-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:39:09.569-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:39:09.572-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:39:09.572-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-03T19:39:09.578-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.046 seconds
+[2025-03-03T19:40:28.460-0500] {processor.py:186} INFO - Started process (PID=93354) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:40:28.461-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-03T19:40:28.462-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:40:28.462-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:40:28.471-0500] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:40:28.496-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:40:28.496-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:40:28.499-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:40:28.499-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-03T19:40:28.504-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.045 seconds
+[2025-03-03T19:41:55.998-0500] {processor.py:186} INFO - Started process (PID=93773) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:41:55.999-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-03T19:41:55.999-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:41:55.999-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:41:56.008-0500] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:41:56.037-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:41:56.037-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:41:56.040-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:41:56.040-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-03T19:41:56.045-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.048 seconds
+[2025-03-03T19:43:44.374-0500] {processor.py:186} INFO - Started process (PID=93974) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:43:44.375-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-03T19:43:44.375-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:43:44.375-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:43:44.384-0500] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:43:44.409-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:43:44.409-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:43:44.412-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:43:44.412-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-03T19:43:44.417-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.045 seconds
+[2025-03-03T19:45:07.643-0500] {processor.py:186} INFO - Started process (PID=94162) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:45:07.644-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-03T19:45:07.645-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:45:07.644-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:45:07.655-0500] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:45:07.684-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:45:07.684-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:45:07.687-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:45:07.687-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-03T19:45:07.693-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.051 seconds
+[2025-03-03T19:48:21.799-0500] {processor.py:186} INFO - Started process (PID=94654) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:48:21.800-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-03T19:48:21.801-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:48:21.801-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:48:21.809-0500] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:48:21.835-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:48:21.835-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:48:21.838-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:48:21.838-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-03T19:48:21.843-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.045 seconds
+[2025-03-03T19:50:12.757-0500] {processor.py:186} INFO - Started process (PID=94828) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:50:12.758-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-03T19:50:12.758-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:50:12.758-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:50:12.767-0500] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:50:12.792-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:50:12.792-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:50:12.795-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:50:12.795-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-03T19:50:12.800-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.045 seconds
+[2025-03-03T19:51:30.633-0500] {processor.py:186} INFO - Started process (PID=94923) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:51:30.633-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-03T19:51:30.633-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:51:30.633-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:51:30.641-0500] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:51:30.667-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:51:30.667-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:51:30.670-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:51:30.670-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-03T19:51:30.675-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.043 seconds
+[2025-03-03T19:52:52.447-0500] {processor.py:186} INFO - Started process (PID=95097) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:52:52.448-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-03T19:52:52.449-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:52:52.449-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:52:52.457-0500] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:52:52.482-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:52:52.482-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:52:52.485-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:52:52.485-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-03T19:52:52.491-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.045 seconds
+[2025-03-03T19:54:14.402-0500] {processor.py:186} INFO - Started process (PID=95312) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:54:14.404-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-03T19:54:14.404-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:54:14.404-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:54:14.413-0500] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:54:14.438-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:54:14.438-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:54:14.441-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:54:14.441-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-03T19:54:14.446-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.045 seconds
+[2025-03-03T19:55:37.204-0500] {processor.py:186} INFO - Started process (PID=95493) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:55:37.205-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-03T19:55:37.206-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:55:37.206-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:55:37.216-0500] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:55:37.242-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:55:37.242-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:55:37.245-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:55:37.245-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-03T19:55:37.250-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.047 seconds
+[2025-03-03T19:56:58.629-0500] {processor.py:186} INFO - Started process (PID=95750) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:56:58.631-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-03T19:56:58.631-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:56:58.631-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:56:58.640-0500] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:56:58.666-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:56:58.666-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:56:58.669-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:56:58.669-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-03T19:56:58.674-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.046 seconds
+[2025-03-03T19:58:21.973-0500] {processor.py:186} INFO - Started process (PID=95904) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:58:21.975-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-03T19:58:21.975-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:58:21.975-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:58:21.983-0500] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:58:22.008-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:58:22.008-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:58:22.011-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:58:22.011-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-03T19:58:22.016-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.044 seconds
+[2025-03-03T19:59:42.102-0500] {processor.py:186} INFO - Started process (PID=96011) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:59:42.103-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-03T19:59:42.103-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:59:42.103-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:59:42.112-0500] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T19:59:42.138-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:59:42.138-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:59:42.141-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:59:42.141-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-03T19:59:42.146-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.046 seconds
+[2025-03-03T20:01:03.573-0500] {processor.py:186} INFO - Started process (PID=96204) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T20:01:03.574-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-03-03T20:01:03.574-0500] {logging_mixin.py:190} INFO - [2025-03-03T20:01:03.574-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T20:01:03.583-0500] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-03-03T20:01:03.608-0500] {logging_mixin.py:190} INFO - [2025-03-03T20:01:03.608-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T20:01:03.611-0500] {logging_mixin.py:190} INFO - [2025-03-03T20:01:03.611-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-03-03T20:01:03.616-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.044 seconds

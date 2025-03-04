@@ -1,0 +1,343 @@
+[2025-03-03T19:20:21.161-0500] {processor.py:186} INFO - Started process (PID=89589) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:20:21.162-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py for tasks to queue
+[2025-03-03T19:20:21.162-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:21.162-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:20:21.170-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:21.169-0500] {dagbag.py:387} ERROR - Failed to import: /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+Traceback (most recent call last):
+  File "/Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py", line 5, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres.operators'
+[2025-03-03T19:20:21.170-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:20:21.265-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:21.265-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:20:21.377-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py took 0.217 seconds
+[2025-03-03T19:22:12.733-0500] {processor.py:186} INFO - Started process (PID=89996) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:22:12.733-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py for tasks to queue
+[2025-03-03T19:22:12.733-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:22:12.733-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:22:12.740-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:22:12.740-0500] {dagbag.py:387} ERROR - Failed to import: /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+Traceback (most recent call last):
+  File "/Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py", line 5, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres.operators'
+[2025-03-03T19:22:12.741-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:22:12.838-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:22:12.837-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:22:12.974-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py took 0.242 seconds
+[2025-03-03T19:23:31.431-0500] {processor.py:186} INFO - Started process (PID=90207) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:23:31.432-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py for tasks to queue
+[2025-03-03T19:23:31.433-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:23:31.433-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:23:31.440-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:23:31.440-0500] {dagbag.py:387} ERROR - Failed to import: /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+Traceback (most recent call last):
+  File "/Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py", line 5, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres.operators'
+[2025-03-03T19:23:31.441-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:23:31.537-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:23:31.537-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:23:31.648-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py took 0.218 seconds
+[2025-03-03T19:24:54.294-0500] {processor.py:186} INFO - Started process (PID=90564) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:24:54.294-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py for tasks to queue
+[2025-03-03T19:24:54.295-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:24:54.295-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:24:54.303-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:24:54.302-0500] {dagbag.py:387} ERROR - Failed to import: /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+Traceback (most recent call last):
+  File "/Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py", line 5, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres.operators'
+[2025-03-03T19:24:54.303-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:24:54.406-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:24:54.405-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:24:54.537-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py took 0.245 seconds
+[2025-03-03T19:26:21.984-0500] {processor.py:186} INFO - Started process (PID=90987) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:26:21.985-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py for tasks to queue
+[2025-03-03T19:26:21.985-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:26:21.985-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:26:21.993-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:26:21.992-0500] {dagbag.py:387} ERROR - Failed to import: /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+Traceback (most recent call last):
+  File "/Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py", line 5, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres.operators'
+[2025-03-03T19:26:21.993-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:26:22.090-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:26:22.090-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:26:22.203-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py took 0.220 seconds
+[2025-03-03T19:27:23.640-0500] {processor.py:186} INFO - Started process (PID=91216) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:27:23.641-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py for tasks to queue
+[2025-03-03T19:27:23.641-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:27:23.641-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:27:23.648-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:27:23.648-0500] {dagbag.py:387} ERROR - Failed to import: /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+Traceback (most recent call last):
+  File "/Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py", line 5, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres.operators'
+[2025-03-03T19:27:23.648-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:27:23.745-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:27:23.744-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:27:23.856-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py took 0.217 seconds
+[2025-03-03T19:29:11.850-0500] {processor.py:186} INFO - Started process (PID=91584) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:29:11.850-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py for tasks to queue
+[2025-03-03T19:29:11.851-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:29:11.851-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:29:11.860-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:29:11.859-0500] {dagbag.py:387} ERROR - Failed to import: /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+Traceback (most recent call last):
+  File "/Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py", line 5, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres.operators'
+[2025-03-03T19:29:11.860-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:29:11.983-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:29:11.983-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:29:12.144-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py took 0.295 seconds
+[2025-03-03T19:30:28.493-0500] {processor.py:186} INFO - Started process (PID=91818) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:30:28.493-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py for tasks to queue
+[2025-03-03T19:30:28.493-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:30:28.493-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:30:28.501-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:30:28.500-0500] {dagbag.py:387} ERROR - Failed to import: /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+Traceback (most recent call last):
+  File "/Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py", line 5, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres.operators'
+[2025-03-03T19:30:28.501-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:30:28.601-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:30:28.600-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:30:28.716-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py took 0.225 seconds
+[2025-03-03T19:31:41.355-0500] {processor.py:186} INFO - Started process (PID=92046) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:31:41.356-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py for tasks to queue
+[2025-03-03T19:31:41.356-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:31:41.356-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:31:41.363-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:31:41.363-0500] {dagbag.py:387} ERROR - Failed to import: /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+Traceback (most recent call last):
+  File "/Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py", line 5, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres.operators'
+[2025-03-03T19:31:41.364-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:31:41.459-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:31:41.459-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:31:41.572-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py took 0.218 seconds
+[2025-03-03T19:33:31.626-0500] {processor.py:186} INFO - Started process (PID=92391) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:33:31.627-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py for tasks to queue
+[2025-03-03T19:33:31.628-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:33:31.628-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:33:31.636-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:33:31.635-0500] {dagbag.py:387} ERROR - Failed to import: /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+Traceback (most recent call last):
+  File "/Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py", line 5, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres.operators'
+[2025-03-03T19:33:31.636-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:33:31.756-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:33:31.756-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:33:31.906-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py took 0.281 seconds
+[2025-03-03T19:34:50.783-0500] {processor.py:186} INFO - Started process (PID=92567) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:34:50.784-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py for tasks to queue
+[2025-03-03T19:34:50.785-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:34:50.784-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:34:50.792-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:34:50.792-0500] {dagbag.py:387} ERROR - Failed to import: /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+Traceback (most recent call last):
+  File "/Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py", line 5, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres.operators'
+[2025-03-03T19:34:50.793-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:34:50.890-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:34:50.890-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:34:51.007-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py took 0.225 seconds
+[2025-03-03T19:36:08.427-0500] {processor.py:186} INFO - Started process (PID=92743) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:36:08.428-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py for tasks to queue
+[2025-03-03T19:36:08.428-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:36:08.428-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:36:08.436-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:36:08.436-0500] {dagbag.py:387} ERROR - Failed to import: /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+Traceback (most recent call last):
+  File "/Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py", line 5, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres.operators'
+[2025-03-03T19:36:08.437-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:36:08.545-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:36:08.545-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:36:08.665-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py took 0.239 seconds
+[2025-03-03T19:37:30.106-0500] {processor.py:186} INFO - Started process (PID=92931) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:37:30.107-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py for tasks to queue
+[2025-03-03T19:37:30.107-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:37:30.107-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:37:30.115-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:37:30.115-0500] {dagbag.py:387} ERROR - Failed to import: /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+Traceback (most recent call last):
+  File "/Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py", line 5, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres.operators'
+[2025-03-03T19:37:30.115-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:37:30.233-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:37:30.233-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:37:30.384-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py took 0.279 seconds
+[2025-03-03T19:38:51.580-0500] {processor.py:186} INFO - Started process (PID=93115) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:38:51.581-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py for tasks to queue
+[2025-03-03T19:38:51.582-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:38:51.581-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:38:51.589-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:38:51.589-0500] {dagbag.py:387} ERROR - Failed to import: /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+Traceback (most recent call last):
+  File "/Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py", line 5, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres.operators'
+[2025-03-03T19:38:51.589-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:38:51.710-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:38:51.710-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:38:51.863-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py took 0.284 seconds
+[2025-03-03T19:40:10.656-0500] {processor.py:186} INFO - Started process (PID=93300) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:40:10.658-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py for tasks to queue
+[2025-03-03T19:40:10.658-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:40:10.658-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:40:10.666-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:40:10.665-0500] {dagbag.py:387} ERROR - Failed to import: /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+Traceback (most recent call last):
+  File "/Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py", line 5, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres.operators'
+[2025-03-03T19:40:10.666-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:40:10.765-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:40:10.764-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:40:10.897-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py took 0.242 seconds
+[2025-03-03T19:41:40.758-0500] {processor.py:186} INFO - Started process (PID=93711) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:41:40.759-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py for tasks to queue
+[2025-03-03T19:41:40.760-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:41:40.760-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:41:40.768-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:41:40.767-0500] {dagbag.py:387} ERROR - Failed to import: /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+Traceback (most recent call last):
+  File "/Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py", line 5, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres.operators'
+[2025-03-03T19:41:40.768-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:41:40.889-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:41:40.889-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:41:41.013-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py took 0.256 seconds
+[2025-03-03T19:43:27.150-0500] {processor.py:186} INFO - Started process (PID=93951) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:43:27.151-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py for tasks to queue
+[2025-03-03T19:43:27.151-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:43:27.151-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:43:27.161-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:43:27.160-0500] {dagbag.py:387} ERROR - Failed to import: /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+Traceback (most recent call last):
+  File "/Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py", line 5, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.postgres.operators'
+[2025-03-03T19:43:27.161-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:43:27.310-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:43:27.310-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:43:27.489-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py took 0.341 seconds
+[2025-03-03T19:44:43.773-0500] {processor.py:186} INFO - Started process (PID=94112) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:44:43.773-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py for tasks to queue
+[2025-03-03T19:44:43.774-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:44:43.774-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:44:43.875-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:44:43.875-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:44:43.981-0500] {processor.py:925} INFO - DAG(s) 'football_data_pipeline' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:44:44.088-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:44:44.088-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:44:44.093-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:44:44.093-0500] {dag.py:4180} INFO - Setting next_dagrun for football_data_pipeline to 2025-03-02 02:00:00+00:00, run_after=2025-03-03 02:00:00+00:00
+[2025-03-03T19:44:44.099-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py took 0.328 seconds
+[2025-03-03T19:47:55.800-0500] {processor.py:186} INFO - Started process (PID=94536) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:47:55.800-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py for tasks to queue
+[2025-03-03T19:47:55.801-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:47:55.801-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:47:55.892-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:47:55.892-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:47:55.974-0500] {processor.py:925} INFO - DAG(s) 'football_data_pipeline' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:47:56.036-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:47:56.035-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:47:56.041-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:47:56.041-0500] {dag.py:4180} INFO - Setting next_dagrun for football_data_pipeline to 2025-03-02 02:00:00+00:00, run_after=2025-03-03 02:00:00+00:00
+[2025-03-03T19:47:56.047-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py took 0.248 seconds
+[2025-03-03T19:49:48.555-0500] {processor.py:186} INFO - Started process (PID=94799) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:49:48.556-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py for tasks to queue
+[2025-03-03T19:49:48.557-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:49:48.557-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:49:48.635-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:49:48.634-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:49:48.705-0500] {processor.py:925} INFO - DAG(s) 'football_data_pipeline' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:49:48.785-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:49:48.785-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:49:48.790-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:49:48.790-0500] {dag.py:4180} INFO - Setting next_dagrun for football_data_pipeline to 2025-03-02 02:00:00+00:00, run_after=2025-03-03 02:00:00+00:00
+[2025-03-03T19:49:48.796-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py took 0.242 seconds
+[2025-03-03T19:51:07.699-0500] {processor.py:186} INFO - Started process (PID=94894) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:51:07.699-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py for tasks to queue
+[2025-03-03T19:51:07.699-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:51:07.699-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:51:07.777-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:51:07.777-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:51:07.848-0500] {processor.py:925} INFO - DAG(s) 'football_data_pipeline' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:51:07.907-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:51:07.907-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:51:07.912-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:51:07.912-0500] {dag.py:4180} INFO - Setting next_dagrun for football_data_pipeline to 2025-03-02 02:00:00+00:00, run_after=2025-03-03 02:00:00+00:00
+[2025-03-03T19:51:07.918-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py took 0.221 seconds
+[2025-03-03T19:52:28.564-0500] {processor.py:186} INFO - Started process (PID=95008) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:52:28.564-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py for tasks to queue
+[2025-03-03T19:52:28.565-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:52:28.565-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:52:28.665-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:52:28.665-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:52:28.772-0500] {processor.py:925} INFO - DAG(s) 'football_data_pipeline' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:52:28.854-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:52:28.854-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:52:28.858-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:52:28.858-0500] {dag.py:4180} INFO - Setting next_dagrun for football_data_pipeline to 2025-03-02 02:00:00+00:00, run_after=2025-03-03 02:00:00+00:00
+[2025-03-03T19:52:28.865-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py took 0.302 seconds
+[2025-03-03T19:53:50.925-0500] {processor.py:186} INFO - Started process (PID=95241) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:53:50.928-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py for tasks to queue
+[2025-03-03T19:53:50.929-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:53:50.929-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:53:51.007-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:53:51.007-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:53:51.078-0500] {processor.py:925} INFO - DAG(s) 'football_data_pipeline' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:53:51.136-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:53:51.136-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:53:51.141-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:53:51.141-0500] {dag.py:4180} INFO - Setting next_dagrun for football_data_pipeline to 2025-03-02 02:00:00+00:00, run_after=2025-03-03 02:00:00+00:00
+[2025-03-03T19:53:51.147-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py took 0.223 seconds
+[2025-03-03T19:55:13.241-0500] {processor.py:186} INFO - Started process (PID=95446) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:55:13.242-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py for tasks to queue
+[2025-03-03T19:55:13.243-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:55:13.243-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:55:13.342-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:55:13.342-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:55:13.474-0500] {processor.py:925} INFO - DAG(s) 'football_data_pipeline' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:55:13.554-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:55:13.554-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:55:13.559-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:55:13.559-0500] {dag.py:4180} INFO - Setting next_dagrun for football_data_pipeline to 2025-03-02 02:00:00+00:00, run_after=2025-03-03 02:00:00+00:00
+[2025-03-03T19:55:13.565-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py took 0.325 seconds
+[2025-03-03T19:56:35.193-0500] {processor.py:186} INFO - Started process (PID=95702) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:56:35.194-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py for tasks to queue
+[2025-03-03T19:56:35.195-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:56:35.195-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:56:35.281-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:56:35.281-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:56:35.356-0500] {processor.py:925} INFO - DAG(s) 'football_data_pipeline' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:56:35.415-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:56:35.415-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:56:35.422-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:56:35.422-0500] {dag.py:4180} INFO - Setting next_dagrun for football_data_pipeline to 2025-03-02 02:00:00+00:00, run_after=2025-03-03 02:00:00+00:00
+[2025-03-03T19:56:35.427-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py took 0.235 seconds
+[2025-03-03T19:57:57.362-0500] {processor.py:186} INFO - Started process (PID=95864) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:57:57.363-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py for tasks to queue
+[2025-03-03T19:57:57.363-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:57:57.363-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:57:57.490-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:57:57.490-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:57:57.602-0500] {processor.py:925} INFO - DAG(s) 'football_data_pipeline' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:57:57.685-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:57:57.685-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:57:57.690-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:57:57.690-0500] {dag.py:4180} INFO - Setting next_dagrun for football_data_pipeline to 2025-03-02 02:00:00+00:00, run_after=2025-03-03 02:00:00+00:00
+[2025-03-03T19:57:57.697-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py took 0.338 seconds
+[2025-03-03T19:59:19.576-0500] {processor.py:186} INFO - Started process (PID=95983) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:59:19.577-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py for tasks to queue
+[2025-03-03T19:59:19.577-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:59:19.577-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:59:19.664-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:59:19.664-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:59:19.747-0500] {processor.py:925} INFO - DAG(s) 'football_data_pipeline' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T19:59:19.812-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:59:19.812-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:59:19.818-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:59:19.818-0500] {dag.py:4180} INFO - Setting next_dagrun for football_data_pipeline to 2025-03-02 02:00:00+00:00, run_after=2025-03-03 02:00:00+00:00
+[2025-03-03T19:59:19.824-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py took 0.249 seconds
+[2025-03-03T20:00:41.926-0500] {processor.py:186} INFO - Started process (PID=96087) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T20:00:41.927-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py for tasks to queue
+[2025-03-03T20:00:41.927-0500] {logging_mixin.py:190} INFO - [2025-03-03T20:00:41.927-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T20:00:42.049-0500] {logging_mixin.py:190} INFO - [2025-03-03T20:00:42.049-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T20:00:42.181-0500] {processor.py:925} INFO - DAG(s) 'football_data_pipeline' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py
+[2025-03-03T20:00:42.263-0500] {logging_mixin.py:190} INFO - [2025-03-03T20:00:42.263-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T20:00:42.269-0500] {logging_mixin.py:190} INFO - [2025-03-03T20:00:42.269-0500] {dag.py:4180} INFO - Setting next_dagrun for football_data_pipeline to 2025-03-02 02:00:00+00:00, run_after=2025-03-03 02:00:00+00:00
+[2025-03-03T20:00:42.274-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/football_data_dag.py took 0.349 seconds

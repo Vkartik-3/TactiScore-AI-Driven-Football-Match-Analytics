@@ -1,0 +1,120 @@
+[2025-03-03T19:21:23.834-0500] {processor.py:186} INFO - Started process (PID=89822) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:21:23.835-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-03-03T19:21:23.835-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:21:23.835-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:21:23.848-0500] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:21:23.904-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:21:23.904-0500] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_params_trigger_ui
+[2025-03-03T19:21:23.907-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:21:23.907-0500] {override.py:1930} INFO - Created Permission View: can read on DAG:example_params_trigger_ui
+[2025-03-03T19:21:23.908-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:21:23.908-0500] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_params_trigger_ui
+[2025-03-03T19:21:23.910-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:21:23.910-0500] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_params_trigger_ui
+[2025-03-03T19:21:23.912-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:21:23.912-0500] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_params_trigger_ui
+[2025-03-03T19:21:23.913-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:21:23.913-0500] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_params_trigger_ui
+[2025-03-03T19:21:23.914-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:21:23.914-0500] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_params_trigger_ui
+[2025-03-03T19:21:23.914-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:21:23.914-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:21:23.917-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:21:23.917-0500] {dag.py:3262} INFO - Creating ORM DAG for example_params_trigger_ui
+[2025-03-03T19:21:23.917-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:21:23.917-0500] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-03-03T19:21:23.922-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.088 seconds
+[2025-03-03T19:23:11.502-0500] {processor.py:186} INFO - Started process (PID=90184) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:23:11.503-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-03-03T19:23:11.504-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:23:11.504-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:23:11.516-0500] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:23:11.548-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:23:11.548-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:23:11.551-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:23:11.551-0500] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-03-03T19:23:11.556-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.055 seconds
+[2025-03-03T19:25:59.646-0500] {processor.py:186} INFO - Started process (PID=90843) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:25:59.647-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-03-03T19:25:59.647-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:25:59.647-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:25:59.660-0500] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:25:59.693-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:25:59.693-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:25:59.696-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:25:59.696-0500] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-03-03T19:25:59.702-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.057 seconds
+[2025-03-03T19:28:22.806-0500] {processor.py:186} INFO - Started process (PID=91411) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:28:22.806-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-03-03T19:28:22.807-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:28:22.806-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:28:22.820-0500] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:28:22.853-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:28:22.853-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:28:22.856-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:28:22.856-0500] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-03-03T19:28:22.862-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.058 seconds
+[2025-03-03T19:30:10.713-0500] {processor.py:186} INFO - Started process (PID=91760) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:30:10.715-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-03-03T19:30:10.715-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:30:10.715-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:30:10.728-0500] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:30:10.759-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:30:10.759-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:30:10.762-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:30:10.762-0500] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-03-03T19:30:10.768-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.056 seconds
+[2025-03-03T19:32:40.199-0500] {processor.py:186} INFO - Started process (PID=92275) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:32:40.200-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-03-03T19:32:40.201-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:32:40.201-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:32:40.213-0500] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:32:40.245-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:32:40.245-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:32:40.248-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:32:40.248-0500] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-03-03T19:32:40.254-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.056 seconds
+[2025-03-03T19:34:31.003-0500] {processor.py:186} INFO - Started process (PID=92520) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:34:31.004-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-03-03T19:34:31.005-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:34:31.005-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:34:31.018-0500] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:34:31.050-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:34:31.050-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:34:31.053-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:34:31.053-0500] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-03-03T19:34:31.058-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.056 seconds
+[2025-03-03T19:37:08.048-0500] {processor.py:186} INFO - Started process (PID=92878) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:37:08.049-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-03-03T19:37:08.050-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:37:08.050-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:37:08.063-0500] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:37:08.095-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:37:08.095-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:37:08.098-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:37:08.098-0500] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-03-03T19:37:08.104-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.057 seconds
+[2025-03-03T19:39:50.360-0500] {processor.py:186} INFO - Started process (PID=93249) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:39:50.361-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-03-03T19:39:50.361-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:39:50.361-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:39:50.374-0500] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:39:50.407-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:39:50.406-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:39:50.410-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:39:50.410-0500] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-03-03T19:39:50.415-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.056 seconds
+[2025-03-03T19:42:36.044-0500] {processor.py:186} INFO - Started process (PID=93861) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:42:36.045-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-03-03T19:42:36.045-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:42:36.045-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:42:36.058-0500] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:42:36.091-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:42:36.091-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:42:36.094-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:42:36.094-0500] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-03-03T19:42:36.100-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.057 seconds
+[2025-03-03T19:44:28.335-0500] {processor.py:186} INFO - Started process (PID=94067) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:44:28.336-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-03-03T19:44:28.336-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:44:28.336-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:44:28.349-0500] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:44:28.381-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:44:28.381-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:44:28.384-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:44:28.384-0500] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-03-03T19:44:28.389-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.056 seconds
+[2025-03-03T19:49:03.354-0500] {processor.py:186} INFO - Started process (PID=94739) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:49:03.355-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-03-03T19:49:03.355-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:49:03.355-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:49:03.368-0500] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:49:03.404-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:49:03.404-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:49:03.407-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:49:03.407-0500] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-03-03T19:49:03.413-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.060 seconds
+[2025-03-03T19:50:53.017-0500] {processor.py:186} INFO - Started process (PID=94877) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:50:53.018-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-03-03T19:50:53.018-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:50:53.018-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:50:53.031-0500] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:50:53.062-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:50:53.062-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:50:53.065-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:50:53.065-0500] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-03-03T19:50:53.071-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.055 seconds
+[2025-03-03T19:53:35.457-0500] {processor.py:186} INFO - Started process (PID=95222) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:53:35.458-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-03-03T19:53:35.458-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:53:35.458-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:53:35.471-0500] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:53:35.503-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:53:35.503-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:53:35.506-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:53:35.506-0500] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-03-03T19:53:35.512-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.056 seconds
+[2025-03-03T19:56:18.513-0500] {processor.py:186} INFO - Started process (PID=95644) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:56:18.514-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-03-03T19:56:18.514-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:56:18.514-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:56:18.527-0500] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:56:18.559-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:56:18.559-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:56:18.562-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:56:18.562-0500] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-03-03T19:56:18.568-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.056 seconds
+[2025-03-03T19:59:01.629-0500] {processor.py:186} INFO - Started process (PID=95960) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:59:01.630-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-03-03T19:59:01.630-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:59:01.630-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:59:01.644-0500] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-03-03T19:59:01.678-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:59:01.678-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:59:01.681-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:59:01.681-0500] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-03-03T19:59:01.687-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.060 seconds

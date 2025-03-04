@@ -1,0 +1,168 @@
+[2025-03-03T19:20:25.160-0500] {processor.py:186} INFO - Started process (PID=89595) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:20:25.161-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-03-03T19:20:25.161-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:25.161-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:20:25.236-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:25.236-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:20:25.309-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:20:25.334-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.175 seconds
+[2025-03-03T19:22:15.887-0500] {processor.py:186} INFO - Started process (PID=90008) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:22:15.887-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-03-03T19:22:15.887-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:22:15.887-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:22:15.961-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:22:15.961-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:22:16.030-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:22:16.054-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.169 seconds
+[2025-03-03T19:23:35.355-0500] {processor.py:186} INFO - Started process (PID=90213) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:23:35.356-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-03-03T19:23:35.356-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:23:35.356-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:23:35.429-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:23:35.429-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:23:35.499-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:23:35.523-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.169 seconds
+[2025-03-03T19:24:58.014-0500] {processor.py:186} INFO - Started process (PID=90582) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:24:58.015-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-03-03T19:24:58.015-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:24:58.015-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:24:58.089-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:24:58.089-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:24:58.159-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:24:58.183-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.170 seconds
+[2025-03-03T19:26:26.031-0500] {processor.py:186} INFO - Started process (PID=91009) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:26:26.032-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-03-03T19:26:26.032-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:26:26.032-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:26:26.108-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:26:26.107-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:26:26.179-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:26:26.204-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.174 seconds
+[2025-03-03T19:27:27.646-0500] {processor.py:186} INFO - Started process (PID=91253) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:27:27.646-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-03-03T19:27:27.647-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:27:27.647-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:27:27.720-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:27:27.720-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:27:27.789-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:27:27.813-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.168 seconds
+[2025-03-03T19:29:15.989-0500] {processor.py:186} INFO - Started process (PID=91601) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:29:15.990-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-03-03T19:29:15.990-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:29:15.990-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:29:16.065-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:29:16.065-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:29:16.138-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:29:16.163-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.175 seconds
+[2025-03-03T19:30:32.553-0500] {processor.py:186} INFO - Started process (PID=91831) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:30:32.554-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-03-03T19:30:32.554-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:30:32.554-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:30:32.636-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:30:32.636-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:30:32.710-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:30:32.734-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.182 seconds
+[2025-03-03T19:31:44.807-0500] {processor.py:186} INFO - Started process (PID=92082) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:31:44.808-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-03-03T19:31:44.809-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:31:44.809-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:31:44.882-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:31:44.882-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:31:44.951-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:31:44.975-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.169 seconds
+[2025-03-03T19:33:34.830-0500] {processor.py:186} INFO - Started process (PID=92397) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:33:34.831-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-03-03T19:33:34.832-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:33:34.832-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:33:34.905-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:33:34.905-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:33:34.977-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:33:35.001-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.172 seconds
+[2025-03-03T19:34:54.749-0500] {processor.py:186} INFO - Started process (PID=92578) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:34:54.750-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-03-03T19:34:54.750-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:34:54.750-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:34:54.825-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:34:54.825-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:34:54.897-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:34:54.922-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.175 seconds
+[2025-03-03T19:36:12.482-0500] {processor.py:186} INFO - Started process (PID=92754) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:36:12.482-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-03-03T19:36:12.483-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:36:12.483-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:36:12.556-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:36:12.556-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:36:12.627-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:36:12.652-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.171 seconds
+[2025-03-03T19:37:34.057-0500] {processor.py:186} INFO - Started process (PID=92942) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:37:34.058-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-03-03T19:37:34.058-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:37:34.058-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:37:34.134-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:37:34.133-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:37:34.206-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:37:34.231-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.175 seconds
+[2025-03-03T19:38:55.536-0500] {processor.py:186} INFO - Started process (PID=93126) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:38:55.537-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-03-03T19:38:55.538-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:38:55.538-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:38:55.634-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:38:55.634-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:38:55.709-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:38:55.733-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.198 seconds
+[2025-03-03T19:40:13.823-0500] {processor.py:186} INFO - Started process (PID=93307) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:40:13.824-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-03-03T19:40:13.825-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:40:13.825-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:40:13.910-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:40:13.910-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:40:13.984-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:40:14.009-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.187 seconds
+[2025-03-03T19:41:44.050-0500] {processor.py:186} INFO - Started process (PID=93715) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:41:44.050-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-03-03T19:41:44.051-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:41:44.051-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:41:44.123-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:41:44.123-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:41:44.193-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:41:44.217-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.169 seconds
+[2025-03-03T19:43:31.148-0500] {processor.py:186} INFO - Started process (PID=93957) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:43:31.149-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-03-03T19:43:31.149-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:43:31.149-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:43:31.221-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:43:31.221-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:43:31.290-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:43:31.314-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.168 seconds
+[2025-03-03T19:44:51.836-0500] {processor.py:186} INFO - Started process (PID=94123) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:44:51.838-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-03-03T19:44:51.838-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:44:51.838-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:44:51.911-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:44:51.911-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:44:51.984-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:44:52.008-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.172 seconds
+[2025-03-03T19:48:05.963-0500] {processor.py:186} INFO - Started process (PID=94613) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:48:05.963-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-03-03T19:48:05.963-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:48:05.963-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:48:06.036-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:48:06.036-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:48:06.109-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:48:06.134-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.172 seconds
+[2025-03-03T19:49:58.023-0500] {processor.py:186} INFO - Started process (PID=94809) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:49:58.023-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-03-03T19:49:58.024-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:49:58.024-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:49:58.096-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:49:58.096-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:49:58.165-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:49:58.189-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.167 seconds
+[2025-03-03T19:51:17.233-0500] {processor.py:186} INFO - Started process (PID=94905) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:51:17.233-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-03-03T19:51:17.233-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:51:17.233-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:51:17.306-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:51:17.306-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:51:17.375-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:51:17.399-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.168 seconds
+[2025-03-03T19:52:38.499-0500] {processor.py:186} INFO - Started process (PID=95073) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:52:38.501-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-03-03T19:52:38.502-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:52:38.502-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:52:38.596-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:52:38.596-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:52:38.698-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:52:38.722-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.224 seconds
+[2025-03-03T19:53:59.311-0500] {processor.py:186} INFO - Started process (PID=95281) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:53:59.313-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-03-03T19:53:59.313-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:53:59.313-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:53:59.385-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:53:59.385-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:53:59.454-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:53:59.485-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.175 seconds
+[2025-03-03T19:55:22.943-0500] {processor.py:186} INFO - Started process (PID=95456) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:55:22.944-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-03-03T19:55:22.945-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:55:22.945-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:55:23.018-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:55:23.017-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:55:23.089-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:55:23.113-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.171 seconds
+[2025-03-03T19:56:42.992-0500] {processor.py:186} INFO - Started process (PID=95717) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:56:42.993-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-03-03T19:56:42.994-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:56:42.993-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:56:43.067-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:56:43.067-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:56:43.139-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:56:43.164-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.173 seconds
+[2025-03-03T19:58:06.932-0500] {processor.py:186} INFO - Started process (PID=95886) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:58:06.934-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-03-03T19:58:06.934-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:58:06.934-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:58:07.039-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:58:07.039-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:58:07.192-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:58:07.220-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.288 seconds
+[2025-03-03T19:59:28.389-0500] {processor.py:186} INFO - Started process (PID=95994) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:59:28.390-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-03-03T19:59:28.390-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:59:28.390-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:59:28.462-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:59:28.462-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T19:59:28.531-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T19:59:28.556-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.168 seconds
+[2025-03-03T20:00:50.926-0500] {processor.py:186} INFO - Started process (PID=96108) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T20:00:50.928-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2025-03-03T20:00:50.928-0500] {logging_mixin.py:190} INFO - [2025-03-03T20:00:50.928-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T20:00:51.001-0500] {logging_mixin.py:190} INFO - [2025-03-03T20:00:51.001-0500] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2025-03-03T20:00:51.071-0500] {processor.py:927} WARNING - No viable dags retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2025-03-03T20:00:51.096-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.170 seconds

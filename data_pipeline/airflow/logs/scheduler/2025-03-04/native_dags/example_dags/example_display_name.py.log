@@ -1,0 +1,106 @@
+[2025-03-03T19:21:43.596-0500] {processor.py:186} INFO - Started process (PID=89931) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:21:43.596-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-03-03T19:21:43.597-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:21:43.597-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:21:43.608-0500] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:21:43.659-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:21:43.659-0500] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_display_name
+[2025-03-03T19:21:43.662-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:21:43.662-0500] {override.py:1930} INFO - Created Permission View: can read on DAG:example_display_name
+[2025-03-03T19:21:43.664-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:21:43.664-0500] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_display_name
+[2025-03-03T19:21:43.666-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:21:43.666-0500] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_display_name
+[2025-03-03T19:21:43.667-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:21:43.667-0500] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_display_name
+[2025-03-03T19:21:43.669-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:21:43.668-0500] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_display_name
+[2025-03-03T19:21:43.670-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:21:43.670-0500] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_display_name
+[2025-03-03T19:21:43.670-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:21:43.670-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:21:43.673-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:21:43.673-0500] {dag.py:3262} INFO - Creating ORM DAG for example_display_name
+[2025-03-03T19:21:43.673-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:21:43.673-0500] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-03-03T19:21:43.678-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.083 seconds
+[2025-03-03T19:24:22.510-0500] {processor.py:186} INFO - Started process (PID=90454) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:24:22.511-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-03-03T19:24:22.512-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:24:22.512-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:24:22.523-0500] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:24:22.548-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:24:22.548-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:24:22.551-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:24:22.551-0500] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-03-03T19:24:22.557-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.048 seconds
+[2025-03-03T19:28:43.982-0500] {processor.py:186} INFO - Started process (PID=91506) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:28:43.983-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-03-03T19:28:43.984-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:28:43.984-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:28:44.009-0500] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:28:44.045-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:28:44.045-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:28:44.048-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:28:44.048-0500] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-03-03T19:28:44.055-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.076 seconds
+[2025-03-03T19:31:19.063-0500] {processor.py:186} INFO - Started process (PID=91937) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:31:19.064-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-03-03T19:31:19.065-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:31:19.064-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:31:19.076-0500] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:31:19.102-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:31:19.102-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:31:19.105-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:31:19.105-0500] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-03-03T19:31:19.111-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.049 seconds
+[2025-03-03T19:33:00.144-0500] {processor.py:186} INFO - Started process (PID=92315) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:33:00.145-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-03-03T19:33:00.145-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:33:00.145-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:33:00.157-0500] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:33:00.184-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:33:00.184-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:33:00.187-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:33:00.187-0500] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-03-03T19:33:00.193-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.050 seconds
+[2025-03-03T19:35:36.788-0500] {processor.py:186} INFO - Started process (PID=92675) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:35:36.789-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-03-03T19:35:36.790-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:35:36.790-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:35:36.802-0500] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:35:36.828-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:35:36.827-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:35:36.831-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:35:36.830-0500] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-03-03T19:35:36.837-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.050 seconds
+[2025-03-03T19:38:21.091-0500] {processor.py:186} INFO - Started process (PID=93049) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:38:21.092-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-03-03T19:38:21.092-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:38:21.092-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:38:21.104-0500] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:38:21.131-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:38:21.131-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:38:21.134-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:38:21.134-0500] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-03-03T19:38:21.140-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.050 seconds
+[2025-03-03T19:40:59.734-0500] {processor.py:186} INFO - Started process (PID=93472) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:40:59.735-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-03-03T19:40:59.735-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:40:59.735-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:40:59.747-0500] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:40:59.773-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:40:59.773-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:40:59.776-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:40:59.776-0500] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-03-03T19:40:59.782-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.049 seconds
+[2025-03-03T19:42:55.396-0500] {processor.py:186} INFO - Started process (PID=93892) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:42:55.397-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-03-03T19:42:55.398-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:42:55.398-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:42:55.410-0500] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:42:55.435-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:42:55.435-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:42:55.438-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:42:55.437-0500] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-03-03T19:42:55.443-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.048 seconds
+[2025-03-03T19:49:23.850-0500] {processor.py:186} INFO - Started process (PID=94766) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:49:23.852-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-03-03T19:49:23.852-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:49:23.852-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:49:23.864-0500] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:49:23.889-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:49:23.889-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:49:23.892-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:49:23.892-0500] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-03-03T19:49:23.897-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.048 seconds
+[2025-03-03T19:52:02.958-0500] {processor.py:186} INFO - Started process (PID=94960) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:52:02.959-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-03-03T19:52:02.959-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:52:02.959-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:52:02.971-0500] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:52:02.996-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:52:02.996-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:52:02.999-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:52:02.999-0500] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-03-03T19:52:03.004-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.047 seconds
+[2025-03-03T19:54:47.405-0500] {processor.py:186} INFO - Started process (PID=95362) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:54:47.406-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-03-03T19:54:47.407-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:54:47.407-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:54:47.421-0500] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:54:47.449-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:54:47.449-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:54:47.452-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:54:47.452-0500] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-03-03T19:54:47.459-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.055 seconds
+[2025-03-03T19:57:32.902-0500] {processor.py:186} INFO - Started process (PID=95799) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:57:32.903-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-03-03T19:57:32.903-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:57:32.903-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:57:32.918-0500] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T19:57:32.946-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:57:32.946-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:57:32.950-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:57:32.949-0500] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-03-03T19:57:32.956-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.055 seconds
+[2025-03-03T20:00:14.637-0500] {processor.py:186} INFO - Started process (PID=96055) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T20:00:14.638-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-03-03T20:00:14.639-0500] {logging_mixin.py:190} INFO - [2025-03-03T20:00:14.638-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T20:00:14.651-0500] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2025-03-03T20:00:14.679-0500] {logging_mixin.py:190} INFO - [2025-03-03T20:00:14.679-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T20:00:14.683-0500] {logging_mixin.py:190} INFO - [2025-03-03T20:00:14.683-0500] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-03-03T20:00:14.689-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.053 seconds

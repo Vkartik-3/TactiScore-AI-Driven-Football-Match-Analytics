@@ -1,0 +1,190 @@
+[2025-03-03T19:20:57.397-0500] {processor.py:186} INFO - Started process (PID=89704) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:20:57.398-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-03T19:20:57.398-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:57.398-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:20:57.401-0500] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:20:57.453-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:57.453-0500] {override.py:1930} INFO - Created Permission View: can read on DAG:example_task_group
+[2025-03-03T19:20:57.456-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:57.456-0500] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_task_group
+[2025-03-03T19:20:57.457-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:57.457-0500] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_task_group
+[2025-03-03T19:20:57.459-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:57.459-0500] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_task_group
+[2025-03-03T19:20:57.461-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:57.461-0500] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_task_group
+[2025-03-03T19:20:57.462-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:57.462-0500] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_task_group
+[2025-03-03T19:20:57.464-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:57.464-0500] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_task_group
+[2025-03-03T19:20:57.464-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:57.464-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:20:57.467-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:57.467-0500] {dag.py:3262} INFO - Creating ORM DAG for example_task_group
+[2025-03-03T19:20:57.467-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:57.467-0500] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-03T19:20:57.471-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.075 seconds
+[2025-03-03T19:22:45.457-0500] {processor.py:186} INFO - Started process (PID=90119) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:22:45.458-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-03T19:22:45.459-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:22:45.459-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:22:45.462-0500] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:22:45.490-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:22:45.490-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:22:45.493-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:22:45.493-0500] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-03T19:22:45.499-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.042 seconds
+[2025-03-03T19:24:07.071-0500] {processor.py:186} INFO - Started process (PID=90402) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:24:07.072-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-03T19:24:07.072-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:24:07.072-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:24:07.076-0500] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:24:07.105-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:24:07.105-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:24:07.108-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:24:07.108-0500] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-03T19:24:07.114-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.044 seconds
+[2025-03-03T19:25:32.699-0500] {processor.py:186} INFO - Started process (PID=90667) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:25:32.699-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-03T19:25:32.700-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:25:32.700-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:25:32.703-0500] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:25:32.733-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:25:32.733-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:25:32.737-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:25:32.736-0500] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-03T19:25:32.742-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.045 seconds
+[2025-03-03T19:27:56.148-0500] {processor.py:186} INFO - Started process (PID=91356) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:27:56.148-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-03T19:27:56.149-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:27:56.149-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:27:56.152-0500] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:27:56.179-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:27:56.179-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:27:56.182-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:27:56.182-0500] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-03T19:27:56.187-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.040 seconds
+[2025-03-03T19:29:45.206-0500] {processor.py:186} INFO - Started process (PID=91687) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:29:45.207-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-03T19:29:45.207-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:29:45.207-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:29:45.211-0500] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:29:45.238-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:29:45.238-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:29:45.240-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:29:45.240-0500] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-03T19:29:45.246-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.041 seconds
+[2025-03-03T19:31:02.383-0500] {processor.py:186} INFO - Started process (PID=91882) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:31:02.385-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-03T19:31:02.385-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:31:02.385-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:31:02.389-0500] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:31:02.415-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:31:02.415-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:31:02.418-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:31:02.418-0500] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-03T19:31:02.423-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.041 seconds
+[2025-03-03T19:32:12.513-0500] {processor.py:186} INFO - Started process (PID=92173) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:32:12.513-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-03T19:32:12.514-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:32:12.514-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:32:12.518-0500] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:32:12.547-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:32:12.547-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:32:12.550-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:32:12.550-0500] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-03T19:32:12.555-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.044 seconds
+[2025-03-03T19:34:05.304-0500] {processor.py:186} INFO - Started process (PID=92462) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:34:05.305-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-03T19:34:05.305-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:34:05.305-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:34:05.309-0500] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:34:05.336-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:34:05.336-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:34:05.339-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:34:05.339-0500] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-03T19:34:05.344-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.042 seconds
+[2025-03-03T19:35:25.489-0500] {processor.py:186} INFO - Started process (PID=92645) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:35:25.490-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-03T19:35:25.490-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:35:25.490-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:35:25.494-0500] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:35:25.521-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:35:25.521-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:35:25.524-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:35:25.524-0500] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-03T19:35:25.530-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.042 seconds
+[2025-03-03T19:36:43.018-0500] {processor.py:186} INFO - Started process (PID=92825) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:36:43.019-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-03T19:36:43.020-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:36:43.020-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:36:43.023-0500] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:36:43.050-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:36:43.050-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:36:43.053-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:36:43.053-0500] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-03T19:36:43.059-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.041 seconds
+[2025-03-03T19:38:04.336-0500] {processor.py:186} INFO - Started process (PID=93012) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:38:04.337-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-03T19:38:04.337-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:38:04.337-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:38:04.341-0500] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:38:04.368-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:38:04.368-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:38:04.371-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:38:04.371-0500] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-03T19:38:04.376-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.042 seconds
+[2025-03-03T19:39:26.419-0500] {processor.py:186} INFO - Started process (PID=93194) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:39:26.420-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-03T19:39:26.421-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:39:26.421-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:39:26.424-0500] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:39:26.452-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:39:26.452-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:39:26.455-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:39:26.455-0500] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-03T19:39:26.460-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.042 seconds
+[2025-03-03T19:40:45.750-0500] {processor.py:186} INFO - Started process (PID=93416) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:40:45.751-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-03T19:40:45.751-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:40:45.751-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:40:45.755-0500] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:40:45.782-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:40:45.782-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:40:45.785-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:40:45.785-0500] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-03T19:40:45.790-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.041 seconds
+[2025-03-03T19:42:11.683-0500] {processor.py:186} INFO - Started process (PID=93810) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:42:11.683-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-03T19:42:11.684-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:42:11.683-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:42:11.687-0500] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:42:11.716-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:42:11.716-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:42:11.719-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:42:11.719-0500] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-03T19:42:11.724-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.043 seconds
+[2025-03-03T19:44:03.486-0500] {processor.py:186} INFO - Started process (PID=94003) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:44:03.487-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-03T19:44:03.487-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:44:03.487-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:44:03.491-0500] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:44:03.517-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:44:03.517-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:44:03.520-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:44:03.520-0500] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-03T19:44:03.526-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.041 seconds
+[2025-03-03T19:45:23.652-0500] {processor.py:186} INFO - Started process (PID=94235) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:45:23.652-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-03T19:45:23.653-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:45:23.653-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:45:23.657-0500] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:45:23.688-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:45:23.688-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:45:23.691-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:45:23.691-0500] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-03T19:45:23.698-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.047 seconds
+[2025-03-03T19:48:38.215-0500] {processor.py:186} INFO - Started process (PID=94681) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:48:38.215-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-03T19:48:38.216-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:48:38.216-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:48:38.220-0500] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:48:38.246-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:48:38.246-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:48:38.249-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:48:38.249-0500] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-03T19:48:38.255-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.041 seconds
+[2025-03-03T19:50:28.369-0500] {processor.py:186} INFO - Started process (PID=94847) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:50:28.370-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-03T19:50:28.370-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:50:28.370-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:50:28.374-0500] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:50:28.400-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:50:28.400-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:50:28.403-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:50:28.403-0500] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-03T19:50:28.408-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.040 seconds
+[2025-03-03T19:51:47.313-0500] {processor.py:186} INFO - Started process (PID=94942) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:51:47.314-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-03T19:51:47.314-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:51:47.314-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:51:47.317-0500] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:51:47.343-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:51:47.343-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:51:47.346-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:51:47.346-0500] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-03T19:51:47.352-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.039 seconds
+[2025-03-03T19:53:08.214-0500] {processor.py:186} INFO - Started process (PID=95156) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:53:08.215-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-03T19:53:08.215-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:53:08.215-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:53:08.219-0500] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:53:08.245-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:53:08.245-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:53:08.248-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:53:08.248-0500] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-03T19:53:08.253-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.040 seconds
+[2025-03-03T19:54:32.151-0500] {processor.py:186} INFO - Started process (PID=95341) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:54:32.153-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-03T19:54:32.156-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:54:32.155-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:54:32.160-0500] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:54:32.191-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:54:32.191-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:54:32.194-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:54:32.194-0500] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-03T19:54:32.201-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.051 seconds
+[2025-03-03T19:55:55.045-0500] {processor.py:186} INFO - Started process (PID=95578) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:55:55.046-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-03T19:55:55.047-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:55:55.047-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:55:55.051-0500] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:55:55.078-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:55:55.078-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:55:55.081-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:55:55.081-0500] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-03T19:55:55.086-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.042 seconds
+[2025-03-03T19:57:16.309-0500] {processor.py:186} INFO - Started process (PID=95774) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:57:16.310-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-03T19:57:16.311-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:57:16.311-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:57:16.315-0500] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:57:16.341-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:57:16.341-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:57:16.344-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:57:16.344-0500] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-03T19:57:16.349-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.041 seconds
+[2025-03-03T19:58:38.045-0500] {processor.py:186} INFO - Started process (PID=95933) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:58:38.046-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-03T19:58:38.047-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:58:38.046-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:58:38.050-0500] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:58:38.077-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:58:38.077-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:58:38.080-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:58:38.080-0500] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-03T19:58:38.086-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.041 seconds
+[2025-03-03T19:59:58.597-0500] {processor.py:186} INFO - Started process (PID=96035) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:59:58.597-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-03-03T19:59:58.598-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:59:58.598-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:59:58.602-0500] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2025-03-03T19:59:58.629-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:59:58.629-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:59:58.632-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:59:58.632-0500] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-03-03T19:59:58.637-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.041 seconds

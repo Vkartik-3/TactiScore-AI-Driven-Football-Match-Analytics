@@ -1,0 +1,197 @@
+[2025-03-03T19:20:37.506-0500] {processor.py:186} INFO - Started process (PID=89617) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:20:37.506-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-03-03T19:20:37.507-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:37.506-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:20:37.519-0500] {processor.py:925} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:20:37.575-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:37.575-0500] {override.py:1930} INFO - Created Permission View: can read on DAG:tutorial_objectstorage
+[2025-03-03T19:20:37.579-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:37.579-0500] {override.py:1930} INFO - Created Permission View: can edit on DAG:tutorial_objectstorage
+[2025-03-03T19:20:37.580-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:37.580-0500] {override.py:1930} INFO - Created Permission View: can delete on DAG:tutorial_objectstorage
+[2025-03-03T19:20:37.583-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:37.583-0500] {override.py:1930} INFO - Created Permission View: can create on DAG Run:tutorial_objectstorage
+[2025-03-03T19:20:37.584-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:37.584-0500] {override.py:1930} INFO - Created Permission View: can read on DAG Run:tutorial_objectstorage
+[2025-03-03T19:20:37.586-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:37.586-0500] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:tutorial_objectstorage
+[2025-03-03T19:20:37.588-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:37.588-0500] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:tutorial_objectstorage
+[2025-03-03T19:20:37.588-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:37.588-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:20:37.592-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:37.592-0500] {dag.py:3262} INFO - Creating ORM DAG for tutorial_objectstorage
+[2025-03-03T19:20:37.592-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:37.592-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-03-03T19:20:37.597-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.093 seconds
+[2025-03-03T19:22:26.724-0500] {processor.py:186} INFO - Started process (PID=90037) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:22:26.724-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-03-03T19:22:26.725-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:22:26.725-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:22:26.736-0500] {processor.py:925} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:22:26.761-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:22:26.761-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:22:26.764-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:22:26.764-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-03-03T19:22:26.770-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.047 seconds
+[2025-03-03T19:23:47.290-0500] {processor.py:186} INFO - Started process (PID=90294) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:23:47.291-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-03-03T19:23:47.291-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:23:47.291-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:23:47.304-0500] {processor.py:925} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:23:47.330-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:23:47.329-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:23:47.333-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:23:47.332-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-03-03T19:23:47.338-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.049 seconds
+[2025-03-03T19:25:11.245-0500] {processor.py:186} INFO - Started process (PID=90623) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:25:11.246-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-03-03T19:25:11.246-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:25:11.246-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:25:11.259-0500] {processor.py:925} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:25:11.286-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:25:11.285-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:25:11.289-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:25:11.289-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-03-03T19:25:11.295-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.051 seconds
+[2025-03-03T19:27:38.672-0500] {processor.py:186} INFO - Started process (PID=91306) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:27:38.673-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-03-03T19:27:38.673-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:27:38.673-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:27:38.685-0500] {processor.py:925} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:27:38.710-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:27:38.710-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:27:38.713-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:27:38.713-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-03-03T19:27:38.719-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.048 seconds
+[2025-03-03T19:29:27.541-0500] {processor.py:186} INFO - Started process (PID=91632) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:29:27.542-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-03-03T19:29:27.542-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:29:27.542-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:29:27.555-0500] {processor.py:925} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:29:27.580-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:29:27.580-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:29:27.583-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:29:27.583-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-03-03T19:29:27.588-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.048 seconds
+[2025-03-03T19:30:44.352-0500] {processor.py:186} INFO - Started process (PID=91845) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:30:44.352-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-03-03T19:30:44.353-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:30:44.353-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:30:44.365-0500] {processor.py:925} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:30:44.390-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:30:44.390-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:30:44.393-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:30:44.393-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-03-03T19:30:44.399-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.048 seconds
+[2025-03-03T19:31:55.835-0500] {processor.py:186} INFO - Started process (PID=92128) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:31:55.836-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-03-03T19:31:55.837-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:31:55.837-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:31:55.848-0500] {processor.py:925} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:31:55.874-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:31:55.873-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:31:55.877-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:31:55.876-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-03-03T19:31:55.882-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.048 seconds
+[2025-03-03T19:33:46.640-0500] {processor.py:186} INFO - Started process (PID=92427) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:33:46.641-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-03-03T19:33:46.641-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:33:46.641-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:33:46.654-0500] {processor.py:925} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:33:46.681-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:33:46.681-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:33:46.684-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:33:46.684-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-03-03T19:33:46.690-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.051 seconds
+[2025-03-03T19:35:06.586-0500] {processor.py:186} INFO - Started process (PID=92607) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:35:06.587-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-03-03T19:35:06.588-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:35:06.588-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:35:06.600-0500] {processor.py:925} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:35:06.626-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:35:06.626-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:35:06.629-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:35:06.629-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-03-03T19:35:06.635-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.050 seconds
+[2025-03-03T19:36:24.273-0500] {processor.py:186} INFO - Started process (PID=92779) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:36:24.274-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-03-03T19:36:24.274-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:36:24.274-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:36:24.287-0500] {processor.py:925} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:36:24.313-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:36:24.313-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:36:24.316-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:36:24.316-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-03-03T19:36:24.322-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.050 seconds
+[2025-03-03T19:37:47.147-0500] {processor.py:186} INFO - Started process (PID=92969) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:37:47.148-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-03-03T19:37:47.149-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:37:47.149-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:37:47.162-0500] {processor.py:925} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:37:47.188-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:37:47.188-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:37:47.191-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:37:47.191-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-03-03T19:37:47.197-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.051 seconds
+[2025-03-03T19:39:07.644-0500] {processor.py:186} INFO - Started process (PID=93152) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:39:07.645-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-03-03T19:39:07.646-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:39:07.646-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:39:07.658-0500] {processor.py:925} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:39:07.684-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:39:07.684-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:39:07.687-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:39:07.687-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-03-03T19:39:07.693-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.049 seconds
+[2025-03-03T19:40:26.815-0500] {processor.py:186} INFO - Started process (PID=93351) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:40:26.816-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-03-03T19:40:26.817-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:40:26.816-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:40:26.829-0500] {processor.py:925} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:40:26.855-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:40:26.855-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:40:26.858-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:40:26.858-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-03-03T19:40:26.865-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.050 seconds
+[2025-03-03T19:41:55.085-0500] {processor.py:186} INFO - Started process (PID=93769) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:41:55.086-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-03-03T19:41:55.086-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:41:55.086-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:41:55.099-0500] {processor.py:925} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:41:55.124-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:41:55.124-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:41:55.127-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:41:55.127-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-03-03T19:41:55.133-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.049 seconds
+[2025-03-03T19:43:42.494-0500] {processor.py:186} INFO - Started process (PID=93972) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:43:42.495-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-03-03T19:43:42.496-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:43:42.496-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:43:42.508-0500] {processor.py:925} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:43:42.533-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:43:42.533-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:43:42.536-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:43:42.536-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-03-03T19:43:42.541-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.048 seconds
+[2025-03-03T19:45:05.764-0500] {processor.py:186} INFO - Started process (PID=94154) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:45:05.765-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-03-03T19:45:05.765-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:45:05.765-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:45:05.779-0500] {processor.py:925} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:45:05.805-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:45:05.805-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:45:05.808-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:45:05.808-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-03-03T19:45:05.814-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.051 seconds
+[2025-03-03T19:48:19.888-0500] {processor.py:186} INFO - Started process (PID=94650) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:48:19.889-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-03-03T19:48:19.889-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:48:19.889-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:48:19.901-0500] {processor.py:925} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:48:19.928-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:48:19.928-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:48:19.931-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:48:19.931-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-03-03T19:48:19.937-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.050 seconds
+[2025-03-03T19:50:10.851-0500] {processor.py:186} INFO - Started process (PID=94824) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:50:10.852-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-03-03T19:50:10.852-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:50:10.852-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:50:10.865-0500] {processor.py:925} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:50:10.890-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:50:10.890-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:50:10.893-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:50:10.893-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-03-03T19:50:10.899-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.049 seconds
+[2025-03-03T19:51:28.757-0500] {processor.py:186} INFO - Started process (PID=94921) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:51:28.758-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-03-03T19:51:28.758-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:51:28.758-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:51:28.770-0500] {processor.py:925} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:51:28.795-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:51:28.795-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:51:28.798-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:51:28.798-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-03-03T19:51:28.804-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.048 seconds
+[2025-03-03T19:52:51.357-0500] {processor.py:186} INFO - Started process (PID=95095) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:52:51.359-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-03-03T19:52:51.359-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:52:51.359-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:52:51.371-0500] {processor.py:925} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:52:51.396-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:52:51.396-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:52:51.399-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:52:51.399-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-03-03T19:52:51.405-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.049 seconds
+[2025-03-03T19:54:12.477-0500] {processor.py:186} INFO - Started process (PID=95310) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:54:12.478-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-03-03T19:54:12.479-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:54:12.479-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:54:12.491-0500] {processor.py:925} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:54:12.517-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:54:12.517-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:54:12.520-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:54:12.520-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-03-03T19:54:12.526-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.050 seconds
+[2025-03-03T19:55:35.270-0500] {processor.py:186} INFO - Started process (PID=95491) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:55:35.271-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-03-03T19:55:35.271-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:55:35.271-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:55:35.283-0500] {processor.py:925} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:55:35.309-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:55:35.309-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:55:35.312-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:55:35.312-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-03-03T19:55:35.318-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.049 seconds
+[2025-03-03T19:56:56.739-0500] {processor.py:186} INFO - Started process (PID=95748) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:56:56.740-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-03-03T19:56:56.741-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:56:56.741-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:56:56.753-0500] {processor.py:925} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:56:56.778-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:56:56.778-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:56:56.781-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:56:56.781-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-03-03T19:56:56.787-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.049 seconds
+[2025-03-03T19:58:20.053-0500] {processor.py:186} INFO - Started process (PID=95902) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:58:20.054-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-03-03T19:58:20.055-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:58:20.055-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:58:20.067-0500] {processor.py:925} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:58:20.092-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:58:20.092-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:58:20.095-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:58:20.095-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-03-03T19:58:20.101-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.048 seconds
+[2025-03-03T19:59:40.181-0500] {processor.py:186} INFO - Started process (PID=96009) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:59:40.182-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-03-03T19:59:40.183-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:59:40.183-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:59:40.196-0500] {processor.py:925} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T19:59:40.222-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:59:40.222-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:59:40.225-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:59:40.225-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-03-03T19:59:40.231-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.051 seconds
+[2025-03-03T20:01:02.645-0500] {processor.py:186} INFO - Started process (PID=96202) to work on /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T20:01:02.646-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2025-03-03T20:01:02.646-0500] {logging_mixin.py:190} INFO - [2025-03-03T20:01:02.646-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T20:01:02.658-0500] {processor.py:925} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2025-03-03T20:01:02.683-0500] {logging_mixin.py:190} INFO - [2025-03-03T20:01:02.683-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T20:01:02.686-0500] {logging_mixin.py:190} INFO - [2025-03-03T20:01:02.686-0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2025-03-03T20:01:02.692-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/anaconda3/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.048 seconds

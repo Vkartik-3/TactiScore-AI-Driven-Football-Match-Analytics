@@ -1,0 +1,204 @@
+[2025-03-03T19:20:19.249-0500] {processor.py:186} INFO - Started process (PID=89581) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:20:19.250-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py for tasks to queue
+[2025-03-03T19:20:19.250-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:19.250-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:20:19.254-0500] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:20:19.306-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:19.306-0500] {override.py:1930} INFO - Created Permission View: can read on DAG:test_dag
+[2025-03-03T19:20:19.308-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:19.308-0500] {override.py:1930} INFO - Created Permission View: can delete on DAG:test_dag
+[2025-03-03T19:20:19.310-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:19.309-0500] {override.py:1930} INFO - Created Permission View: can edit on DAG:test_dag
+[2025-03-03T19:20:19.312-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:19.312-0500] {override.py:1930} INFO - Created Permission View: can read on DAG Run:test_dag
+[2025-03-03T19:20:19.313-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:19.313-0500] {override.py:1930} INFO - Created Permission View: can create on DAG Run:test_dag
+[2025-03-03T19:20:19.315-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:19.315-0500] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:test_dag
+[2025-03-03T19:20:19.316-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:19.316-0500] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:test_dag
+[2025-03-03T19:20:19.316-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:19.316-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:20:19.319-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:19.319-0500] {dag.py:3262} INFO - Creating ORM DAG for test_dag
+[2025-03-03T19:20:19.321-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:20:19.321-0500] {dag.py:4180} INFO - Setting next_dagrun for test_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T19:20:19.326-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py took 0.078 seconds
+[2025-03-03T19:22:10.859-0500] {processor.py:186} INFO - Started process (PID=89994) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:22:10.859-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py for tasks to queue
+[2025-03-03T19:22:10.860-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:22:10.860-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:22:10.863-0500] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:22:10.889-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:22:10.889-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:22:10.893-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:22:10.893-0500] {dag.py:4180} INFO - Setting next_dagrun for test_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T19:22:10.899-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py took 0.041 seconds
+[2025-03-03T19:23:29.542-0500] {processor.py:186} INFO - Started process (PID=90205) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:23:29.543-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py for tasks to queue
+[2025-03-03T19:23:29.544-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:23:29.544-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:23:29.547-0500] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:23:29.573-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:23:29.573-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:23:29.578-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:23:29.577-0500] {dag.py:4180} INFO - Setting next_dagrun for test_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T19:23:29.583-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py took 0.041 seconds
+[2025-03-03T19:24:51.940-0500] {processor.py:186} INFO - Started process (PID=90540) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:24:51.941-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py for tasks to queue
+[2025-03-03T19:24:51.941-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:24:51.941-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:24:51.945-0500] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:24:51.972-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:24:51.972-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:24:51.978-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:24:51.978-0500] {dag.py:4180} INFO - Setting next_dagrun for test_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T19:24:51.983-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py took 0.044 seconds
+[2025-03-03T19:26:20.710-0500] {processor.py:186} INFO - Started process (PID=90982) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:26:20.711-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py for tasks to queue
+[2025-03-03T19:26:20.711-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:26:20.711-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:26:20.715-0500] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:26:20.743-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:26:20.743-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:26:20.748-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:26:20.748-0500] {dag.py:4180} INFO - Setting next_dagrun for test_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T19:26:20.754-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py took 0.045 seconds
+[2025-03-03T19:27:21.755-0500] {processor.py:186} INFO - Started process (PID=91213) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:27:21.756-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py for tasks to queue
+[2025-03-03T19:27:21.756-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:27:21.756-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:27:21.759-0500] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:27:21.786-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:27:21.786-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:27:21.792-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:27:21.791-0500] {dag.py:4180} INFO - Setting next_dagrun for test_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T19:27:21.797-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py took 0.043 seconds
+[2025-03-03T19:29:09.883-0500] {processor.py:186} INFO - Started process (PID=91580) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:29:09.885-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py for tasks to queue
+[2025-03-03T19:29:09.885-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:29:09.885-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:29:09.889-0500] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:29:09.917-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:29:09.917-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:29:09.922-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:29:09.922-0500] {dag.py:4180} INFO - Setting next_dagrun for test_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T19:29:09.927-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py took 0.045 seconds
+[2025-03-03T19:30:26.594-0500] {processor.py:186} INFO - Started process (PID=91816) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:30:26.594-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py for tasks to queue
+[2025-03-03T19:30:26.595-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:30:26.595-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:30:26.597-0500] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:30:26.623-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:30:26.623-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:30:26.628-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:30:26.628-0500] {dag.py:4180} INFO - Setting next_dagrun for test_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T19:30:26.633-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py took 0.040 seconds
+[2025-03-03T19:31:39.481-0500] {processor.py:186} INFO - Started process (PID=92035) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:31:39.482-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py for tasks to queue
+[2025-03-03T19:31:39.483-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:31:39.483-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:31:39.486-0500] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:31:39.512-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:31:39.512-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:31:39.516-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:31:39.516-0500] {dag.py:4180} INFO - Setting next_dagrun for test_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T19:31:39.521-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py took 0.041 seconds
+[2025-03-03T19:33:29.709-0500] {processor.py:186} INFO - Started process (PID=92384) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:33:29.711-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py for tasks to queue
+[2025-03-03T19:33:29.711-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:33:29.711-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:33:29.714-0500] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:33:29.743-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:33:29.743-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:33:29.749-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:33:29.749-0500] {dag.py:4180} INFO - Setting next_dagrun for test_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T19:33:29.754-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py took 0.046 seconds
+[2025-03-03T19:34:48.859-0500] {processor.py:186} INFO - Started process (PID=92565) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:34:48.860-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py for tasks to queue
+[2025-03-03T19:34:48.861-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:34:48.860-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:34:48.864-0500] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:34:48.890-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:34:48.890-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:34:48.895-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:34:48.895-0500] {dag.py:4180} INFO - Setting next_dagrun for test_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T19:34:48.900-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py took 0.042 seconds
+[2025-03-03T19:36:06.502-0500] {processor.py:186} INFO - Started process (PID=92736) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:36:06.503-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py for tasks to queue
+[2025-03-03T19:36:06.503-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:36:06.503-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:36:06.507-0500] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:36:06.534-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:36:06.534-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:36:06.539-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:36:06.539-0500] {dag.py:4180} INFO - Setting next_dagrun for test_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T19:36:06.544-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py took 0.043 seconds
+[2025-03-03T19:37:28.167-0500] {processor.py:186} INFO - Started process (PID=92928) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:37:28.168-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py for tasks to queue
+[2025-03-03T19:37:28.168-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:37:28.168-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:37:28.172-0500] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:37:28.199-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:37:28.199-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:37:28.204-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:37:28.204-0500] {dag.py:4180} INFO - Setting next_dagrun for test_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T19:37:28.209-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py took 0.043 seconds
+[2025-03-03T19:38:49.642-0500] {processor.py:186} INFO - Started process (PID=93113) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:38:49.643-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py for tasks to queue
+[2025-03-03T19:38:49.643-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:38:49.643-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:38:49.647-0500] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:38:49.674-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:38:49.674-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:38:49.679-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:38:49.679-0500] {dag.py:4180} INFO - Setting next_dagrun for test_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T19:38:49.684-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py took 0.043 seconds
+[2025-03-03T19:40:08.701-0500] {processor.py:186} INFO - Started process (PID=93292) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:40:08.702-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py for tasks to queue
+[2025-03-03T19:40:08.703-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:40:08.703-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:40:08.706-0500] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:40:08.733-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:40:08.733-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:40:08.738-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:40:08.738-0500] {dag.py:4180} INFO - Setting next_dagrun for test_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T19:40:08.743-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py took 0.043 seconds
+[2025-03-03T19:41:38.832-0500] {processor.py:186} INFO - Started process (PID=93690) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:41:38.833-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py for tasks to queue
+[2025-03-03T19:41:38.833-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:41:38.833-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:41:38.836-0500] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:41:38.863-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:41:38.863-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:41:38.867-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:41:38.867-0500] {dag.py:4180} INFO - Setting next_dagrun for test_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T19:41:38.873-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py took 0.042 seconds
+[2025-03-03T19:43:25.236-0500] {processor.py:186} INFO - Started process (PID=93948) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:43:25.236-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py for tasks to queue
+[2025-03-03T19:43:25.237-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:43:25.237-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:43:25.240-0500] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:43:25.267-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:43:25.267-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:43:25.272-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:43:25.272-0500] {dag.py:4180} INFO - Setting next_dagrun for test_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T19:43:25.277-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py took 0.042 seconds
+[2025-03-03T19:44:48.969-0500] {processor.py:186} INFO - Started process (PID=94119) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:44:48.970-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py for tasks to queue
+[2025-03-03T19:44:48.970-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:44:48.970-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:44:48.973-0500] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:44:49.000-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:44:49.000-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:44:49.004-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:44:49.004-0500] {dag.py:4180} INFO - Setting next_dagrun for test_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T19:44:49.009-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py took 0.041 seconds
+[2025-03-03T19:48:02.137-0500] {processor.py:186} INFO - Started process (PID=94582) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:48:02.137-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py for tasks to queue
+[2025-03-03T19:48:02.138-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:48:02.138-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:48:02.141-0500] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:48:02.169-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:48:02.169-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:48:02.175-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:48:02.175-0500] {dag.py:4180} INFO - Setting next_dagrun for test_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T19:48:02.180-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py took 0.045 seconds
+[2025-03-03T19:49:54.392-0500] {processor.py:186} INFO - Started process (PID=94805) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:49:54.392-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py for tasks to queue
+[2025-03-03T19:49:54.393-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:49:54.393-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:49:54.396-0500] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:49:54.422-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:49:54.422-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:49:54.427-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:49:54.427-0500] {dag.py:4180} INFO - Setting next_dagrun for test_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T19:49:54.432-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py took 0.042 seconds
+[2025-03-03T19:51:13.548-0500] {processor.py:186} INFO - Started process (PID=94901) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:51:13.548-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py for tasks to queue
+[2025-03-03T19:51:13.548-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:51:13.548-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:51:13.551-0500] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:51:13.577-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:51:13.577-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:51:13.582-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:51:13.582-0500] {dag.py:4180} INFO - Setting next_dagrun for test_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T19:51:13.587-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py took 0.040 seconds
+[2025-03-03T19:52:34.652-0500] {processor.py:186} INFO - Started process (PID=95057) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:52:34.654-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py for tasks to queue
+[2025-03-03T19:52:34.655-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:52:34.655-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:52:34.658-0500] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:52:34.684-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:52:34.684-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:52:34.689-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:52:34.689-0500] {dag.py:4180} INFO - Setting next_dagrun for test_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T19:52:34.694-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py took 0.043 seconds
+[2025-03-03T19:53:56.157-0500] {processor.py:186} INFO - Started process (PID=95270) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:53:56.159-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py for tasks to queue
+[2025-03-03T19:53:56.160-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:53:56.160-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:53:56.163-0500] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:53:56.189-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:53:56.189-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:53:56.193-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:53:56.193-0500] {dag.py:4180} INFO - Setting next_dagrun for test_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T19:53:56.199-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py took 0.042 seconds
+[2025-03-03T19:55:19.182-0500] {processor.py:186} INFO - Started process (PID=95452) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:55:19.184-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py for tasks to queue
+[2025-03-03T19:55:19.184-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:55:19.184-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:55:19.187-0500] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:55:19.213-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:55:19.213-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:55:19.218-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:55:19.218-0500] {dag.py:4180} INFO - Setting next_dagrun for test_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T19:55:19.223-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py took 0.042 seconds
+[2025-03-03T19:56:40.054-0500] {processor.py:186} INFO - Started process (PID=95713) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:56:40.055-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py for tasks to queue
+[2025-03-03T19:56:40.056-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:56:40.056-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:56:40.059-0500] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:56:40.086-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:56:40.085-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:56:40.090-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:56:40.090-0500] {dag.py:4180} INFO - Setting next_dagrun for test_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T19:56:40.095-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py took 0.042 seconds
+[2025-03-03T19:58:02.950-0500] {processor.py:186} INFO - Started process (PID=95874) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:58:02.951-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py for tasks to queue
+[2025-03-03T19:58:02.951-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:58:02.951-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:58:02.955-0500] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:58:02.986-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:58:02.986-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:58:02.992-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:58:02.992-0500] {dag.py:4180} INFO - Setting next_dagrun for test_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T19:58:02.998-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py took 0.049 seconds
+[2025-03-03T19:59:25.459-0500] {processor.py:186} INFO - Started process (PID=95989) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:59:25.460-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py for tasks to queue
+[2025-03-03T19:59:25.460-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:59:25.460-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:59:25.464-0500] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T19:59:25.491-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:59:25.491-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T19:59:25.496-0500] {logging_mixin.py:190} INFO - [2025-03-03T19:59:25.496-0500] {dag.py:4180} INFO - Setting next_dagrun for test_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T19:59:25.501-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py took 0.043 seconds
+[2025-03-03T20:00:47.944-0500] {processor.py:186} INFO - Started process (PID=96098) to work on /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T20:00:47.945-0500] {processor.py:914} INFO - Processing file /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py for tasks to queue
+[2025-03-03T20:00:47.945-0500] {logging_mixin.py:190} INFO - [2025-03-03T20:00:47.945-0500] {dagbag.py:588} INFO - Filling up the DagBag from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T20:00:47.948-0500] {processor.py:925} INFO - DAG(s) 'test_dag' retrieved from /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py
+[2025-03-03T20:00:47.976-0500] {logging_mixin.py:190} INFO - [2025-03-03T20:00:47.976-0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T20:00:47.981-0500] {logging_mixin.py:190} INFO - [2025-03-03T20:00:47.981-0500] {dag.py:4180} INFO - Setting next_dagrun for test_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T20:00:47.986-0500] {processor.py:208} INFO - Processing /Users/kartikvadhawana/Desktop/match/Football_Prediction_System/data_pipeline/airflow/dags/test_dag.py took 0.043 seconds
