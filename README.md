@@ -10,7 +10,7 @@ A comprehensive machine learning system for predicting football match outcomes w
 
 Special thanks to the following contributors for their valuable contributions:
 
-- [**Kartik Vadhawana**](https://github.com/Vkartik-3) _(GitHub Username: Vkartik-3)_
+- [**Kartik Vadhawana**](https://github.com/Vkartik-3) _(GitHub Username: Vkartik-3)_ - [LinkedIn Profile](https://www.linkedin.com/in/kartikvadhawana/)
 - [**Jas Shah**](https://github.com/Arbiter09) _(GitHub Username: Arbiter09)_ - [LinkedIn Profile](https://www.linkedin.com/in/jas-shah-709854233/)
 
 ## 📋 Table of Contents
