@@ -6,6 +6,13 @@ A comprehensive machine learning system for predicting football match outcomes w
 ![Version](https://img.shields.io/badge/version-0.3.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
+## 👥 Contributors
+
+Special thanks to the following contributors for their valuable contributions:
+
+- [**Kartik Vadhawana**](https://github.com/Vkartik-3) _(GitHub Username: Vkartik-3)_
+- [**Jas Shah**](https://github.com/Arbiter09) _(GitHub Username: Arbiter09)_ - [LinkedIn Profile](https://www.linkedin.com/in/jas-shah-709854233/)
+
 ## 📋 Table of Contents
 
 - [Overview](#overview)
@@ -32,24 +39,28 @@ Current prediction accuracy stands at 70% with F1 scores of 47.1% (RandomForest)
 ## ✨ Features
 
 ### Data Collection & Processing
+
 - Multi-source data collection (web scraping, APIs, databases)
 - Automated ETL workflows with Apache Airflow
 - Comprehensive feature engineering pipeline
 - Data validation and quality checks
 
 ### Machine Learning
+
 - Multiple prediction models (RandomForest, XGBoost, Ensemble)
 - Model versioning and performance tracking
 - Hyperparameter optimization
 - Advanced evaluation metrics
 
 ### Web Application
+
 - FastAPI backend with RESTful endpoints
 - React frontend with responsive design
 - Interactive dashboards and visualizations
 - Model comparison and performance analysis tools
 
 ### Team Analysis
+
 - Historical performance statistics
 - Head-to-head comparisons
 - Form analysis and trending metrics
@@ -71,6 +82,7 @@ Current prediction accuracy stands at 70% with F1 scores of 47.1% (RandomForest)
 ## 🛠️ Tech Stack
 
 ### Backend
+
 - **Python 3.8+**
 - **FastAPI**: Web framework
 - **SQLAlchemy**: ORM for database interactions
@@ -80,6 +92,7 @@ Current prediction accuracy stands at 70% with F1 scores of 47.1% (RandomForest)
 - **Optuna**: Hyperparameter optimization
 
 ### Frontend
+
 - **React**: UI library
 - **TypeScript**: Type-safe JavaScript
 - **Redux**: State management
@@ -87,11 +100,13 @@ Current prediction accuracy stands at 70% with F1 scores of 47.1% (RandomForest)
 - **Tailwind CSS**: Styling
 
 ### Data Storage
+
 - **PostgreSQL**: Main database
 - **Redis**: Caching
 - **S3/MinIO**: Model artifact storage
 
 ### DevOps
+
 - **Docker**: Containerization
 - **GitHub Actions**: CI/CD (planned)
 - **ELK Stack**: Monitoring (planned)
@@ -101,16 +116,19 @@ Current prediction accuracy stands at 70% with F1 scores of 47.1% (RandomForest)
 The data pipeline is built using Apache Airflow to automate the collection, processing, and storage of football match data:
 
 1. **Data Collection**
+
    - Web scraping from multiple sources (FBref, Transfermarkt, WhoScored)
    - API integrations for odds, weather, and supplementary data
    - Historical database queries
 
 2. **Data Processing**
+
    - Cleaning and normalization
    - Feature engineering
    - Data validation and quality control
 
 3. **Feature Generation**
+
    - Team performance metrics (form, streaks, goals)
    - Head-to-head statistics
    - Match context features (timing, weather, location)
@@ -124,18 +142,22 @@ The data pipeline is built using Apache Airflow to automate the collection, proc
 ## 🧠 Machine Learning Models
 
 ### Current Models
+
 - **RandomForest**: Base model with core features (~47.1% F1)
 - **XGBoost**: Gradient boosting implementation
 - **Ensemble**: Weighted combination of models (~52.6% F1)
 
 ### Planned Enhancements
+
 - **Stacked Ensemble**: Neural network meta-learner on top of base models
 - **Deep Learning**: LSTM/Transformer networks for sequence modeling
 - **Feature Selection**: Automated feature importance analysis
 - **AutoML**: Automatic model selection and optimization
 
 ### Model Versioning
+
 The system implements a comprehensive model versioning system that tracks:
+
 - Training data snapshot
 - Hyperparameters
 - Feature set
@@ -173,18 +195,21 @@ football_prediction_system/
 ## 🚀 Installation
 
 ### Prerequisites
+
 - Python 3.8+
 - Node.js 14+
 - PostgreSQL 12+
 - Docker and Docker Compose (optional)
 
 ### Clone the Repository
+
 ```bash
 git clone https://github.com/yourusername/football-prediction-system.git
 cd football-prediction-system
 ```
 
 ### Backend Setup
+
 ```bash
 # Create a virtual environment
 python -m venv venv
@@ -201,12 +226,14 @@ alembic upgrade head
 ```
 
 ### Frontend Setup
+
 ```bash
 cd app/frontend
 npm install
 ```
 
 ### Airflow Setup
+
 ```bash
 # Set Airflow home directory
 export AIRFLOW_HOME=$(pwd)/data_pipeline/airflow
@@ -239,6 +266,7 @@ cp configs/airflow.example.yaml configs/airflow.yaml
 ```
 
 Key configuration parameters:
+
 - Database connection strings
 - API keys for data sources
 - Model hyperparameters
@@ -248,24 +276,28 @@ Key configuration parameters:
 ## 📖 Usage
 
 ### Running the API Server
+
 ```bash
 cd app
 uvicorn api.main:app --reload
 ```
 
 ### Running the Frontend
+
 ```bash
 cd app/frontend
 npm start
 ```
 
 ### Accessing the Application
+
 - Frontend: http://localhost:3000
 - API: http://localhost:8000
 - API Documentation: http://localhost:8000/docs
 - Airflow: http://localhost:8080
 
 ### Training Models
+
 ```bash
 # Train a specific model
 python -m ml.training.train --model random_forest
@@ -275,6 +307,7 @@ python -m ml.training.train --all
 ```
 
 ### Running Predictions
+
 ```bash
 # Generate predictions for upcoming matches
 python -m ml.predict --upcoming
@@ -289,42 +322,47 @@ The API documentation is automatically generated using Swagger UI and can be acc
 
 ### Key Endpoints
 
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| `/api/v1/matches` | GET | List matches with filtering options |
-| `/api/v1/predictions` | GET | Get predictions for matches |
-| `/api/v1/teams/{team_id}` | GET | Get team information |
-| `/api/v1/models` | GET | List available models |
-| `/api/v1/models/{model_id}/metrics` | GET | Get model performance metrics |
-| `/api/v1/head-to-head/{team1_id}/{team2_id}` | GET | Get head-to-head statistics |
+| Endpoint                                     | Method | Description                         |
+| -------------------------------------------- | ------ | ----------------------------------- |
+| `/api/v1/matches`                            | GET    | List matches with filtering options |
+| `/api/v1/predictions`                        | GET    | Get predictions for matches         |
+| `/api/v1/teams/{team_id}`                    | GET    | Get team information                |
+| `/api/v1/models`                             | GET    | List available models               |
+| `/api/v1/models/{model_id}/metrics`          | GET    | Get model performance metrics       |
+| `/api/v1/head-to-head/{team1_id}/{team2_id}` | GET    | Get head-to-head statistics         |
 
 ## 🗓️ Development Roadmap
 
 ### Phase 3 (Current)
+
 - Implement stacked ensemble with neural network
 - Optimize hyperparameters with Optuna
 - Add player-level features
 - Fix Airflow configuration issues
 
 ### Phase 4
+
 - Implement WebSockets for live updates
 - Create real-time prediction updates
 - Set up prediction change alerts
 - Develop live visualization components
 
 ### Phase 5
+
 - Add computer vision for tactical analysis
 - Implement NLP for news/social media
 - Develop player performance metrics
 - Create natural language match reports
 
 ### Phase 6
+
 - Build formation simulation tools
 - Implement what-if scenarios
 - Create tactical pattern recognition
 - Develop match simulation
 
 ### Phase 7
+
 - Set up CI/CD with GitHub Actions
 - Containerize application with Docker
 - Implement database optimization
